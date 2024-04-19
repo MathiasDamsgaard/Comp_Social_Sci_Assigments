@@ -1,0 +1,19 @@
+baseURL = "https://MathiasDamsgaard.github.io/Comp_Social_Sci_Assigment_B/"
+title = "Pypi package dependency"
+description = "A project looking into the links between the different python packages available on Pypi and how they depend on each other as requirements."
+relativeURLs = true
+theme = "theme"
+[params]
+    authors = ["Andreas Søndergaard (s214635)", "Anton Mosquera Storgaard (s214611)", "Mathias Correll Damsgaard (s214647)"]
+    notebook = "/explainer-notebook.html"
+    data = "https://drive.google.com"
+    github = "https://github.com/MathiasDamsgaard/Comp_Social_Sci_Assigments"
+    [[params.nav]]
+        label = "Data"
+        link = "/data-description"
+    [[params.nav]]
+        label = "Network"
+        link = "/network-analysis"
+    [[params.nav]]
+        label = "Text"
+        link = "/text-analysis"
