@@ -4,34 +4,10 @@ layout: single
 next: data-description
 ---
 
-Link to [something](#). _italic_, **bold**.
+This project works to investigate a network constructed of _python packages' dependencies_ on each other. This is based on the available packages on [python package index (pypi)](https://pypi.org/). Inspiration of this project idea comes from seeing an older dataset on [Netzschleuder](https://networks.skewed.de/net/python_dependency) made by Kevin Gullikson. His [original blogpost](https://kgullikson88.github.io/blog/pypi-analysis.html) is from 2016, and will therefore be used as a baseline for comparing the networks on a timescale.
+<img src="/images/pypi.svg" width="200">
 
-## Math formula
-$$ x^n + y^n = z^n $$
-
-## Code chunk
-```
-import pandas as pd
-
-df = pd.DataFrame()
-```
-
-![Link to website](https://source.unsplash.com/random/?Copenhagen)
-
-
-> Highlight a section
-
-| Column 1  | Column 2  |  Column 3 |
-|---|---|---|
-| 1 | 4 | 7 |
-| 2 | 5 | 8 |
-| 3 | 6 | 9 |
-
-Two ways to insert an image
-![](/images/dtu-logo.png)
-<img src="/images/dtu-logo.png" width="200" />
-
-* List something
-1. Or with numbers
+The resulting network will be analysed based on theory for a directed network, where a package point to another package if the first package is a requirement for the second one. This information was collected from the individual packages githubs. Further information on the data acquisition can be found in the data tab.
 
 ## [Explainer Notebook](explainer-notebook.html)
+Above is a webbased visual representation of the notebook containing all the relevant code along with clarifications and explanations on the workflow and decisions taken.
