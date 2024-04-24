@@ -3,8 +3,7 @@ title: Data description
 prev: "/"
 next: network-analysis
 ---
-
-The data acquisition was completed in the following steps:
+The first step was to collect the data. This process was a longer one, but the gain over doing it from scratch was the choice of what data to collect, and what to discard. The data acquisition was completed in the following steps:
 1. Get the packages of Pypi
 2. Check for and retrieve the package's Github
 3. Check for and retrieve information contained in a requirements file for dependencies
@@ -27,8 +26,12 @@ For the requirements file the same logic was applied. This time there was just m
 * environment.yml
 * pyproject.toml
 * requirements.txt
-Depending on the found file format, different RegEx combinations were used to properly filter and clean the retrieved text into a list of the dependent package names.
 
-If no requirements file was found, the package was discarded, as it wouldn't be possible to connect it to the network. However, if it as only the README file, we weren't able to find or didn't exist, we still kept the node in the network to get as detailed a network as possible even though, it couldn't be used later for textual analysis.
+Depending on the found file format, different RegEx combinations were used to properly filter and clean the retrieved text into a list of the dependent package names. Additionally, if no requirements file was found, the package was discarded, as it wouldn't be possible to connect it to the network. However, if it as only the README file, we weren't able to find or didn't exist, we still kept the node in the network to get as detailed a network as possible even though, it couldn't be used later for textual analysis. The final data size was a total of 53,156 rows of different packages with five columns of attributes. These were:
+* The name of the library
+* The link to Pypi
+* The Github link
+* A list of the requirements
+* The text if there is any, otherwise empty
 
-Lastly we made the edge list contianing pairs of a requirement and the package it is used by. However, we make sure to only allow dependency between packages that are in the network. So if a package is dependent on a package that we couldn't find information on, we don't include that pair, as we would have no way of properly accessing the second package' actual value in the network without it's requirements file.
+Lastly we made the edge list contianing pairs of a requirement and the package it is used by. However, we make sure to only allow dependency between packages that are in the network. So if a package is dependent on a package that we couldn't find information on, we don't include that pair, as we would have no way of properly accessing the second package' actual value in the network without it's requirements file. This list was then used to create the directed graph. 
