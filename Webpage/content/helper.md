@@ -24,5 +24,3 @@ Two ways to insert an image
 
 * List something
 1. Or with numbers
-
-## [Explainer Notebook](explainer-notebook.html)
