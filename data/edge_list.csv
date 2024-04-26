@@ -52198,6 +52198,8 @@ scikit-learn,scicheat
 scipy,scicheat
 mkdocs,mkdocs-bootstrap-tables-plugin
 redis,redis-timeseries
+pandas,tidml
+scipy,tidml
 scipy,agaro
 ciabatta,agaro
 pytest,pullrequester
@@ -52230,6 +52232,7 @@ pynetworktables2js,robotpy-websim
 scikit-learn,druhg
 matplotlib,druhg
 druhg,druhg
+jsondler,xlson
 requests,rwsp
 pandas,ssdedupe
 dedupe,ssdedupe
@@ -52263,6 +52266,7 @@ cloudpickle,kubeflow-fairing
 boto3,kubeflow-fairing
 azure-storage-file,kubeflow-fairing
 ibm-cos-sdk,kubeflow-fairing
+requests,jutily
 pydantic,stackcoin
 requests,stackcoin
 scipy,unagi
@@ -52301,6 +52305,9 @@ requests,proxyyourspider
 scipy,proxyyourspider
 wxpython,proxyyourspider
 requests,deviceidentifier
+pandas,lspr
+scipy,lspr
+matplotlib,lspr
 boto3,kl-audit-supportv2.2
 dokr,kl-audit-supportv2.2
 requests,kl-audit-supportv2.2
@@ -52399,6 +52406,7 @@ requests,runcible
 requests-toolbelt,runcible
 sphinx,runcible
 tqdm,runcible
+sphinx,greenbalance
 gevent,greenbalance
 cached-property,jaiminho
 colorama,jaiminho
@@ -52448,6 +52456,7 @@ sphinx,staty
 tox,staty
 tqdm,staty
 virtualenv,staty
+requests,wait-response
 boto3,awsiot
 requests,average-pixels
 scipy,average-pixels
@@ -52515,6 +52524,7 @@ tqdm,cifar2png
 requests,python-harvest
 redis,redis-event-tracker
 pytest,mock-aerohive
+aiosock,as-rpc
 cryptography,odoo-addon-mail-post-defer
 scipy,scopyon
 matplotlib,scopyon
@@ -52615,6 +52625,9 @@ scipy,striatum
 scikit-learn,striatum
 matplotlib,striatum
 tox,striatum
+pandas,dptools
+scikit-learn,dptools
+scipy,dptools
 scipy,ramp
 pandas,ramp
 scikit-learn,ramp
@@ -52689,6 +52702,7 @@ scipy,malis
 pytest,converter-cli
 rasterio,apureza
 scipy,apureza
+moretools,jinjatools
 scikit-learn,pyrsgis
 surgeo,surgeo
 pandas,surgeo
@@ -52744,6 +52758,7 @@ iniconfig,stablerls
 pytest,stablerls
 cryptography,odoo12-addon-l10n-es-aeat-mod123
 requests,filelibpy
+fastapi,stripe-asgi-server
 gunicorn,stripe-asgi-server
 pytest,stripe-asgi-server
 requests,foldingathome
@@ -52771,6 +52786,11 @@ pandas,aedes
 scikit-learn,aedes
 tpot,aedes
 osmnet,aedes
+flask,isoprene-pumpjack
+flask-cors,isoprene-pumpjack
+gunicorn,isoprene-pumpjack
+neo4j-driver,isoprene-pumpjack
+sphinx,isoprene-pumpjack
 pytest,namegender
 gitpython,fb-duckling
 pytest,fb-duckling
@@ -52827,10 +52847,12 @@ pytest,pyjo-mdl
 requests,pocket-api
 flask,flask-microservices
 flake8,django-croco
+pandas,jsondler
 ipython,stix2
 pytest,stix2
 sphinx,stix2
 tox,stix2
+requests,wolfe
 django-all-access,django3-all-access
 requests-oauthlib,django3-all-access
 requests,django3-all-access
@@ -53122,6 +53144,7 @@ virtualenv,opstools
 pandas,intake-parquet
 black,semantically
 requests,semantically
+robotframework,robotframework-csvlibrary
 boto3,aws-scripts
 paramiko,aws-scripts
 boto,aws-scripts
@@ -53143,6 +53166,8 @@ fastapi,timvt
 morecantile,timvt
 pytest,timvt
 httpx,timvt
+scipy,pygranso-cpu
+notebook,pygranso-cpu
 sumnplot,sumnplot
 tqdm,pydrawing
 alchemy-mock,suap-duf
@@ -53164,6 +53189,8 @@ jsonlines,openue
 tqdm,openue
 requests,bulk-email-verifier
 pandas,element-recognition
+pytest,urial
+pytest-mock,urial
 black,cachecall
 flake8,cachecall
 pytest,cachecall
@@ -53187,6 +53214,7 @@ matplotlib,svg2eagle
 cryptography,authsign
 fastapi,authsign
 uvicorn,authsign
+timm,zcls2
 sphinx,package-helper-test-2022-01-18-17h12
 diskcache,targer-api
 requests,targer-api
@@ -53276,7 +53304,16 @@ cryptography,openimu
 oauthlib,openimu
 requests,openimu
 requests-oauthlib,openimu
+black,statista
+flake8,statista
+pre-commit-hooks,statista
+pytest,statista
+reorder-python-imports,statista
 requests,logifire
+black,earth2observe
+pre-commit-hooks,earth2observe
+pytest,earth2observe
+reorder-python-imports,earth2observe
 requests,test-repo
 colorama,console-engine
 requests,pypact-lang
@@ -53425,6 +53462,9 @@ uvicorn,rap
 virtualenv,rap
 redis,joker-redis
 requests,joker-redis
+pytest,metawards
+flake8,metawards
+sphinx,metawards
 pandas,multigroupgp
 matplotlib,multigroupgp
 tqdm,multigroupgp
@@ -53466,6 +53506,8 @@ pytest-mock,python-roku-custom
 requests,python-roku-custom
 tox,python-roku-custom
 colorama,vandal
+pandas,vandal
+matplotlib,vandal
 requests,tues
 cryptography,tues
 attribution,sphinx_mdinclude
@@ -53663,6 +53705,8 @@ matplotlib,dynamicviz
 pandas,dynamicviz
 scipy,dynamicviz
 tqdm,dynamicviz
+graphviz,alab-experiment-helper
+pydantic,alab-experiment-helper
 matplotlib,pythresh
 scikit-learn,pythresh
 scipy,pythresh
@@ -53823,6 +53867,8 @@ tqdm,txt-utils
 cryptography,odoo14-addon-auth-signup-verify-email
 python-jose,odoo14-addon-auth-signup-verify-email
 pandas,geeup
+requests,geeup
+pytest,geeup
 cached-property,mpdd-alignn
 colorama,mpdd-alignn
 distro,mpdd-alignn
@@ -53984,6 +54030,7 @@ pyright,augmenty
 requests,research-data-services-common
 requests,contrast-security
 pandas,spatialcorr-sim
+scipy,spatialcorr-sim
 scikit-learn,spatialcorr-sim
 matplotlib,spatialcorr-sim
 flake8,vardautomation
@@ -54178,7 +54225,9 @@ pytest,kern-rowduction
 requests,kern-rowduction
 sphinx,kern-rowduction
 tqdm,kern-rowduction
+matplotlib,mospipe
 scipy,mospipe
+astropy,mospipe
 tqdm,mospipe
 boto3,wltr-functions
 colorama,wltr-functions
@@ -54379,6 +54428,11 @@ pandas,frmodel
 scipy,frmodel
 scikit-learn,frmodel
 utm,frmodel
+black,cleopatra
+flake8,cleopatra
+pre-commit-hooks,cleopatra
+pytest,cleopatra
+reorder-python-imports,cleopatra
 requests,magstar-client
 requests,aparatpy
 mc-automation-tools,mc-discrete-kit
@@ -54560,6 +54614,7 @@ matplotlib,bci4als
 mne,bci4als
 pandas,bci4als
 pytest,wabclient
+requests,servicestack
 httpx,logoo
 skelmis-commons,logoo
 pytest,gosnmp-traps-python
@@ -54623,6 +54678,10 @@ flake8,supervisor-gateway
 pytest,supervisor-gateway
 pytest-mock,supervisor-gateway
 httpx,supervisor-gateway
+scipy,giotto-tda-nightly
+scikit-learn,giotto-tda-nightly
+giotto-ph,giotto-tda-nightly
+pyflagser,giotto-tda-nightly
 scikit-learn,espsim
 scipy,espsim
 matplotlib,espsim
@@ -54881,9 +54940,11 @@ flake8,dewloosh.math
 pytest,dewloosh.math
 boto3,infra-surveyor
 graphviz,infra-surveyor
+pytest,pyodbc-knight
 flake8,pyodbc-knight
 pandas,dlacc
 paramiko,odoo14-addon-storage-import-image-advanced
+fabric,nezha-ssh
 anyio,gql-schema-codegen
 autopep8,gql-schema-codegen
 colorama,gql-schema-codegen
@@ -54949,6 +55010,8 @@ tqdm,gendr
 scikit-learn,gendr
 matplotlib,gendr
 flask,fake-ubersmith
+boto3,stmoab
+scipy,stmoab
 matplotlib,photonai-neuro
 nilearn,photonai-neuro
 pandas,photonai-neuro
@@ -54961,6 +55024,9 @@ cryptography,odoo8-addon-l10n-es-aeat-mod303-oss
 mne,ebosc
 pandas,ebosc
 scipy,ebosc
+shapely,lakkavokka
+scipy,lakkavokka
+pyproj,lakkavokka
 cryptography,odoo14-addon-mail-notification-custom-subject
 pytest,ndeftool
 flake8,ndeftool
@@ -55017,6 +55083,7 @@ pypdf,odoo-addon-account-einvoice-generate
 bokeh,odoo13-addon-web-boolean-button
 mpld3,odoo13-addon-web-boolean-button
 tqdm,jax-meta
+pandas,dfbridge
 requests,python-yandex-cloud-monitoring
 black,awsipranges
 colorama,awsipranges
@@ -55038,8 +55105,11 @@ scikit-learn,sdgym
 scipy,sdgym
 scipy,sdgym
 cryptography,odoo11-addon-l10n-es-dua-ticketbai-batuz
+sphinx,soco
+pytest,soco
 graphviz,soco
 flake8,soco
+black,soco
 requests-mock,soco
 build,soco
 matplotlib,statannotations
@@ -55049,6 +55119,10 @@ requests,python-thepeer
 pandas,tensortrade
 ipython,tensortrade
 matplotlib,tensortrade
+requests,zvtm
+pandas,zvtm
+arrow,zvtm
+tzlocal,zvtm
 jqdatapy,zvtm
 tqdm,zvtm
 pytest,pinata-python
@@ -55192,6 +55266,7 @@ flask,pyxtermjs
 flask-socketio,pyxtermjs
 python-socketio,pyxtermjs
 digextractor,digurlextractor
+df-generics,df-telegram-connector
 colorama,packyt
 python-dotenv,packyt
 requests,packyt
@@ -55203,6 +55278,16 @@ requests,sztaki
 requests-toolbelt,sztaki
 sztaki,sztaki
 typing-inspect,sztaki
+bandit,kglab
+flask,kglab
+flit,kglab
+grayskull,kglab
+ipython,kglab
+notebook,kglab
+pipdeptree,kglab
+pymdown-extensions,kglab
+pytest,kglab
+scikit-learn,kglab
 pypdf,odoo12-addon-l10n-fr-department-oversea
 requests,odoo12-addon-l10n-fr-department-oversea
 pandas,random-text
@@ -55940,6 +56025,7 @@ pytest,pymatviz
 markdown,wagtail-markdown
 tox,wagtail-markdown
 colorama,inputpowertools
+requests,klaviyo-sdk
 scipy,anaflow
 matplotlib,anaflow
 sphinx,anaflow
@@ -56019,6 +56105,8 @@ tqdm,cfsp
 pandas,pyxirr
 numpy-financial,pyxirr
 markdown,django-presskit
+gillespy2,stochss-compute
+requests,stochss-compute
 nfem,nfem
 scipy,scikit-glpk
 cryptography,purplship.boxknight
@@ -56085,6 +56173,14 @@ scipy,h-and-m-scraper
 threadpoolctl,h-and-m-scraper
 tqdm,h-and-m-scraper
 trio,h-and-m-scraper
+ete3,treesapp
+samsum,treesapp
+scikit-learn,treesapp
+scipy,treesapp
+tqdm,treesapp
+pytest,treesapp
+pandas,treesapp
+matplotlib,treesapp
 pytest,inverters
 astunparse,asttokunparse
 pytest,easy-auth
@@ -56268,6 +56364,7 @@ pandas,si4ul
 tqdm,si4ul
 scipy,pkelambda
 scikit-learn,pkelambda
+requests,connectapi-core
 docker-py,kafka-python-ng
 flake8,kafka-python-ng
 pytest,kafka-python-ng
@@ -56303,6 +56400,7 @@ pytest-cython,pyqreg
 pandas,pyqreg
 scipy,pyqreg
 black,threatbus
+stix2-patterns,threatbus
 stix2,threatbus
 cryptography,odoo11-addon-base-view-inheritance-extension
 ipython,bddrest
@@ -56428,6 +56526,9 @@ tqdm,astrosat
 scipy,astrosat
 polib,sphinx-lint
 pytest,sphinx-lint
+colorama,nety
+pytest,nety
+sphinx,nety
 tox,epydemicarchive-client
 flake8,epydemicarchive-client
 sphinx,epydemicarchive-client
@@ -56466,6 +56567,7 @@ tox,fiddy
 requests,premierleaguedata
 pandas,python-benchmark-harness
 scipy,python-benchmark-harness
+requests,pyease-grpc
 flake8,pyease-grpc
 autopep8,pyease-grpc
 black,pyease-grpc
@@ -56627,6 +56729,7 @@ the-segmentation-game,devbio-napari
 pydantic,devbio-napari
 pytest,django-easy-logging
 pytest,django-easy-logging
+pytest,easy-bloom-filter
 rasterio,geog0111
 scipy,geog0111
 netcdf4,geog0111
@@ -56698,6 +56801,7 @@ aiortc,pyedurov2-simtind
 colorama,betterstring
 markyp-html,markyp-highlightjs
 requests,python-binance-am11yfork
+pyutilb,seleniumboot
 httpx,rubrix
 pandas,rubrix
 pydantic,rubrix
@@ -56729,6 +56833,7 @@ pandas,v3-liquidity-pool-simulator
 eth-brownie,v3-liquidity-pool-simulator
 cryptography,v3-liquidity-pool-simulator
 python-binance,v3-liquidity-pool-simulator
+black,psrpcore
 pytest,psrpcore
 tox,psrpcore
 colorama,wlauto
@@ -56833,6 +56938,7 @@ scipy,noisereduce
 matplotlib,noisereduce
 tqdm,noisereduce
 noisereduce,noisereduce
+pandas,samesyslib
 pydantic,samesyslib
 requests,tcp-connector
 black,tcp-connector
@@ -57044,6 +57150,9 @@ nodeenv,pycoolmasternet-ng
 requests,pycoolmasternet-ng
 requests-toolbelt,pycoolmasternet-ng
 virtualenv,pycoolmasternet-ng
+colorama,urlautomationmachine
+black,urlautomationmachine
+pytest,urlautomationmachine
 pandas,tegdet
 scipy,tegdet
 matplotlib,tegdet
@@ -57232,6 +57341,7 @@ cryptography,odoo14-addon-mail-allow-portal-internal-note
 tqdm,qlty
 scipy,qlty
 matplotlib,loman
+pandas,loman
 pandas,debiai
 requests,debiai
 masonite,masonite-js-routes
@@ -57485,6 +57595,7 @@ pytest,sp-algopyformance
 scipy,sp-algopyformance
 pandas,laika-lib
 requests,laika-lib
+pyodbc,treetopper
 colorama,mofish
 blessed,mofish
 matplotlib,regular-mesh-plotter
@@ -57607,6 +57718,11 @@ requests,vformer
 virtualenv,vformer
 pandas,mercadobitcoinbalance
 requests,dacsspace
+scikit-learn,float-evaluation
+matplotlib,float-evaluation
+scipy,float-evaluation
+pandas,float-evaluation
+scikit-multiflow,float-evaluation
 autopep8,dafact
 iniconfig,dafact
 pytest,dafact
@@ -57666,6 +57782,9 @@ flask-login,pyspider3
 redis,pyspider3
 hyperspy,particlespy
 scikit-learn,particlespy
+bandit,nyc311calendar
+flake8,nyc311calendar
+black,nyc311calendar
 matplotlib,sampex
 pandas,sampex
 requests,sampex
@@ -57719,6 +57838,7 @@ matplotlib,pyzgy
 pytest,pyzgy
 language-tags,badgecheck
 pyld,badgecheck
+requests,badgecheck
 pytest,badgecheck
 flask,badgecheck
 gunicorn,badgecheck
@@ -57763,6 +57883,7 @@ tqdm,sec-python
 requests,imgurfy
 flask,openmldb-lab
 flask-cors,openmldb-lab
+landez,django-mbtiles
 robotframework,robotframework-statemachinelibrary
 pandas,ezsasrec
 tqdm,ezsasrec
@@ -57852,6 +57973,9 @@ pytest,liteconfig
 requests,example-package-egortopshot
 pandas,finvizfinance
 requests,finvizfinance
+sphinx,npstreams
+pytest,npstreams
+scipy,npstreams
 scipy,ccalnoir
 pandas,ccalnoir
 matplotlib,ccalnoir
@@ -57883,6 +58007,7 @@ matplotlib,pyinduct
 pytest,rio-alpha
 requests,rio-alpha
 boto3,clamda
+requests,eastmoneypy
 pandas,casefoam
 ipython,casefoam
 bitstring,flopz
@@ -57929,6 +58054,7 @@ altair,flashsync
 httpx,flashsync
 ocyara,ocyara
 tqdm,ocyara
+requests,isoenum
 requests,all-the-chatbots
 requests,frozen-soup
 pytest,pynamodb-with-dax
@@ -57990,6 +58116,8 @@ matplotlib-stubs,pyquat
 requests,hinoki
 boto3,ec2-namer
 requests,ec2-namer
+tbx.aws,ec2-namer
+tbx,ec2-namer
 djangorestframework,django_rest_framework_oauth
 oauth2,django_rest_framework_oauth
 django-oauth2-provider,django_rest_framework_oauth
@@ -58007,6 +58135,8 @@ matplotlib,easy-data-analysis
 pandas,easy-data-analysis
 scipy,easy-data-analysis
 sympy,easy-data-analysis
+boto3,aws-python-utils
+pandas,aws-python-utils
 prettytable,turbolift
 requests,turbolift
 cryptography,torpy
@@ -58016,6 +58146,8 @@ bokeh,calpy
 requests,snbpy
 scikit-learn,machine-learning-utility
 pandas,machine-learning-utility
+flask,flask2neo4j
+py2neo,flask2neo4j
 awscli,lambda-harness
 boto3,lambda-harness
 requests,nasa-api-wrapper
@@ -58039,6 +58171,7 @@ sklearn-crfsuite,cl-rasa-components
 word2number,cl-rasa-components
 requests,pipmore
 ose-workbench-platform,ose-workbench-core
+markdown,snipe-im
 matplotlib,phantom-cli
 pokerl,pokerl
 pytest,pokerl
@@ -58092,6 +58225,7 @@ flake8,insynsregistret
 ipython,nonobvious
 pytest,pyparallelize
 sphinx,pyparallelize
+requests,cpen
 requests,zoochory
 requests-toolbelt,zoochory
 flask,flask-test
@@ -58119,6 +58253,8 @@ ipython,cmsplugin-link-extended
 flake8,cmsplugin-link-extended
 requests,django-impression-client
 scipy,mcrops
+pytest,athenacli
+tox,athenacli
 sphinx,athenacli
 scipy,dlmslib
 scikit-learn,dlmslib
@@ -58170,6 +58306,7 @@ flake8,pcf_decrypt
 tox,pcf_decrypt
 virtualenv,pcf_decrypt
 pytest,twosheds
+docker,aiodockerpy
 pytest,colorella
 tox,colorella
 virtualenv,colorella
@@ -58338,6 +58475,7 @@ shapely,odoo-addon-web-view-leaflet-map-partner
 sphinx,pyribbit
 wagtail-modeladmin,wagtail-treemodeladmin
 scipion-pyworkflow,scipion-em-tomoviz
+scipion-em,scipion-em-tomoviz
 pyvista,scipion-em-tomoviz
 black,flake8-no-debug-vars
 flake8,flake8-no-debug-vars
@@ -58562,6 +58700,7 @@ sphinx-book-theme,md-toc
 tox,md-toc
 numcodecs,delta2d-numcodecs
 ellar-cli,ellar-django-module
+rcsb.utils.io,rcsb.utils.struct
 gitpython,python-semantic-release
 requests,python-semantic-release
 python-gitlab,python-semantic-release
@@ -58574,6 +58713,7 @@ httpx,dueros-smarthome
 tqdm,whisper2pinyin
 xpinyin,whisper2pinyin
 pandas,gpx-converter
+rcsb.utils.io,rcsb.utils.seqalign
 boto3,cloud-dataplug
 pandas,cloud-dataplug
 tqdm,cloud-dataplug
@@ -59003,6 +59143,8 @@ scipy,scaffoldgraphnew
 matplotlib,scaffoldgraphnew
 pytest,scaffoldgraphnew
 cppython,cppython-pdm
+klarf-reader,wafermap-clustering
+scikit-learn,wafermap-clustering
 pydantic,wafermap-clustering
 facexlib,hyperrez
 gfpgan,hyperrez
@@ -59348,6 +59490,7 @@ black,llama-trainer
 madforhooks,microarviz
 pytest,microarviz
 cloudpickle,microarviz
+lib4sbom,sbommerge
 requests,museumpy
 python-dotenv,museumpy
 pandas,flightplotting
@@ -59444,6 +59587,7 @@ tqdm,pyhf
 pytest,fastapi_config
 requests,deemon
 tqdm,deemon
+python-dotenv,whit-phys-util
 fastapi,sqlalchemy_database
 uvicorn,sqlalchemy_database
 pyproj,ngy
@@ -59471,7 +59615,9 @@ pytest,dask-dirac
 requests,imaginator
 scipy,imaginator
 tqdm,imaginator
+uproot,epix
 scikit-learn,epix
+wfsim,epix
 iniconfig,pycleancodecli
 pytest,pycleancodecli
 paramiko,odoo13-addon-storage-backend
@@ -59763,6 +59909,7 @@ boto3,methylbert
 requests,methylbert
 tqdm,methylbert
 sacremoses,methylbert
+scikit-learn,methylbert
 scipy,methylbert
 pandas,methylbert
 pybedtools,methylbert
@@ -59773,6 +59920,8 @@ autopep8,compas-eve
 black,compas-eve
 doc8,compas-eve
 flake8,compas-eve
+invoke,compas-eve
+pytest,compas-eve
 black,tgeraser
 detect-secrets,tgeraser
 gitpython,tgeraser
@@ -60156,6 +60305,13 @@ scikit-learn,mlvisualizationtools
 dash-tour-component,mlvisualizationtools
 pytest,mlvisualizationtools
 restructuredtext-lint,doc8
+rcsb.utils.io,rcsb.exdb
+rcsb.utils.chem,rcsb.exdb
+rcsb.utils.citation,rcsb.exdb
+rcsb.utils.config,rcsb.exdb
+rcsb.utils.ec,rcsb.exdb
+rcsb.utils.struct,rcsb.exdb
+rcsb.utils.dictionary,rcsb.exdb
 boto3,pybert
 flake8,packed
 pytest,packed
@@ -60165,6 +60321,8 @@ colorama,konductor
 typer,konductor
 pydantic,mindful
 typer,mindful
+datrie,kkbtdht
+netaddr,kkbtdht
 matplotlib,keggutils
 requests,keggutils
 scipy,keggutils
@@ -60236,6 +60394,10 @@ asfsmd,asfsmd
 asfsmd,asfsmd
 asfsmd,asfsmd
 asfsmd,asfsmd
+rcsb.utils.io,rcsb.utils.targets
+rcsb.utils.config,rcsb.utils.targets
+rcsb.utils.multiproc,rcsb.utils.targets
+napari,napari-pyclesperanto-assistant
 magicgui,napari-pyclesperanto-assistant
 pandas,napari-pyclesperanto-assistant
 napari-time-slicer,napari-pyclesperanto-assistant
@@ -60284,6 +60446,7 @@ shap,tcap
 textblob,tcap
 black,kalamine
 pytest,kalamine
+rcsb.utils.io,rcsb.utils.ec
 requests,pdm-conda
 cfgv,pylingua
 identify,pylingua
@@ -60374,6 +60537,8 @@ sphinx,wafl
 scipy,multinterp
 matplotlib,multinterp
 scikit-learn,multinterp
+requests,icon-getinfo
+prettytable,icon-getinfo
 requests,leetcode-export
 colorama,fuzz-utils
 black,fuzz-utils
@@ -60386,6 +60551,7 @@ flake8,wechaty-plugin-contrib
 pytest,wechaty-plugin-contrib
 requests,wechaty-plugin-contrib
 requests,doubaninfo
+rcsb.utils.io,rcsb.utils.config
 tqdm,scaffoldgraphdg
 scipy,scaffoldgraphdg
 matplotlib,scaffoldgraphdg
@@ -60462,6 +60628,11 @@ pandas,findjobstw
 matplotlib,findjobstw
 scipy,findjobstw
 requests,findjobstw
+invoke,robotframework-seleniumlibrary
+pytest,robotframework-seleniumlibrary
+requests,robotframework-seleniumlibrary
+black,robotframework-seleniumlibrary
+flake8,robotframework-seleniumlibrary
 aeon,convst
 scikit-learn,convst
 scipy,convst
@@ -60620,6 +60791,13 @@ scanpy,secuer
 scikit-learn,secuer
 scipy,secuer
 secuer,secuer
+dlint,oelint-parser
+flake8,oelint-parser
+flake8-comprehensions,oelint-parser
+flake8-executable,oelint-parser
+flake8-quotes,oelint-parser
+flake8-string-format,oelint-parser
+pytest,oelint-parser
 requests,enmet
 pytest,enmet
 pytest-mock,enmet
@@ -60671,15 +60849,21 @@ black,compas-ui
 doc8,compas-ui
 flake8,compas-ui
 graphviz,compas-ui
+invoke,compas-ui
+ipython,compas-ui
 pytest,compas-ui
+sphinx,compas-ui
 requests,pyoptimum
 pandas,elysium-knowledge-repository
 colorama,dystopia
+pandas,dystopia
+matplotlib,dystopia
 black,spherecluster2
 strictyaml,officialeye
 cryptography,odoo-addon-tracking-manager
 eth-brownie,dank-mids
 requests,odoo14-addon-test-queue-job
+flake8,elmat
 pytest,elmat
 pytest,arclet-alconna-graia
 fix-future-annotations,arclet-alconna-graia
@@ -60760,6 +60944,12 @@ sphinx,footprints
 cryptography,odoo14-addon-payment-redsys
 requests,linkedin-scraper4
 labmate,h5viewer
+scipy,mindspore-cuda11-dev
+matplotlib,mindspore-cuda11-dev
+scikit-learn,mindspore-cuda11-dev
+pandas,mindspore-cuda11-dev
+tables,mindspore-cuda11-dev
+astunparse,mindspore-cuda11-dev
 itk-montage,itk-montage
 matplotlib,itk-montage
 black,tiffslide
@@ -60923,6 +61113,7 @@ scipy,sntools
 snewpy,sntools
 uproot,sntools
 httpx,chatgpt-api
+typer,chatgpt-api
 pytest,chatgpt-api
 pytest-mock,chatgpt-api
 pandas,musiclang
@@ -60992,6 +61183,7 @@ pydantic,odoo-addon-fastapi
 pydantic,odoo-addon-fastapi
 build,crypto-licensing
 flake8,crypto-licensing
+pytest,crypto-licensing
 fastapi,surquest-fastapi-utils
 pytest,surquest-fastapi-utils
 cryptography,odoo13-addon-account-bank-statement-import-online
@@ -61042,6 +61234,8 @@ sphinxcontrib-bibtex,ddsmt
 requests,spyctl
 tqdm,spyctl
 pydantic,spyctl
+pytest,sphinx-exec-code
+sphinx,sphinx-exec-code
 aiortc,ipywebcam
 sphinx,ipywebcam
 sphinx,nwswx
@@ -61051,6 +61245,7 @@ tqdm,vsfemasr
 pandas,symlearn
 matplotlib,symlearn
 scikit-learn,symlearn
+graphviz,symlearn
 requests,webling-calendar
 python-dotenv,webling-calendar
 requests,mockaroo-python
@@ -61191,6 +61386,10 @@ auchann,mwe-query
 pyyaml-include,mwe-query
 requests,mwe-query
 cryptography,pykeystore
+pandas,pymoog
+matplotlib,pymoog
+scipy,pymoog
+astropy,pymoog
 tqdm,pymoog
 sympy,causalassembly
 scipy,causalassembly
@@ -61327,6 +61526,12 @@ build,deno-vm
 sphinx,deno-vm
 pytest,lsst-pex-config
 requests,aoc-cli-core
+pytest,transfermarket
+pytest-mock,transfermarket
+invoke,transfermarket
+flake8,transfermarket
+python-semantic-release,transfermarket
+requests-mock,transfermarket
 build,imgtk
 matplotlib,brplotviz
 requests,dislord
@@ -61588,6 +61793,7 @@ hdbscan,antm
 matplotlib,antm
 pandas,antm
 scipy,antm
+tox,pyabc
 pathlib2,clearml-agent
 requests,clearml-agent
 virtualenv,clearml-agent
@@ -61786,6 +61992,13 @@ flake8,wagtail-lottie
 django-storages,wagtail-lottie
 boto3,wagtail-lottie
 pandas,a-pandas-ex-inspect2df
+pytest,soccer-sdk-utils
+pytest-mock,soccer-sdk-utils
+invoke,soccer-sdk-utils
+flake8,soccer-sdk-utils
+python-semantic-release,soccer-sdk-utils
+requests-mock,soccer-sdk-utils
+sphinx,soccer-sdk-utils
 requests,mfpymake
 black,mfpymake
 flake8,mfpymake
@@ -62020,6 +62233,7 @@ pandas,csrgraph2
 scipy,csrgraph2
 scikit-learn,csrgraph2
 tqdm,csrgraph2
+fava,fava-miler
 requests,pyzctrl
 pandas,copulas
 pandas,copulas
@@ -62313,6 +62527,8 @@ pandas,nnunet
 graphviz,nnunet
 matplotlib,nnunet
 black,nnunet
+pyutilb,excelboot
+matplotlib,excelboot
 flake8,safe-eth-py
 gitpython,safe-eth-py
 ipython,safe-eth-py
@@ -62339,6 +62555,14 @@ black,arcana-bids
 flake8,arcana-bids
 pytest,wheeel
 pytest,manubot-ai-editor
+pytest,bookbuilderpy
+virtualenv,bookbuilderpy
+sphinx,bookbuilderpy
+myst-parser,bookbuilderpy
+bandit,bookbuilderpy
+coverage-badge,bookbuilderpy
+dlint,bookbuilderpy
+flake8,bookbuilderpy
 chaostoolkit,chaosgarden
 chaostoolkit-lib,chaosgarden
 chaostoolkit-aws,chaosgarden
@@ -62483,6 +62707,9 @@ sphinx,powermolelib
 tox,powermolelib
 docker,orderly-web
 pytest,orderly-web
+black,fluent.syntax
+flake8,fluent.syntax
+tox,fluent.syntax
 matplotlib,image-processing-furai
 dtpu,whitespace-correction
 gtts,ai-supporter
@@ -62702,6 +62929,7 @@ bandit,ualfred
 tqdm,neuralfoil
 nox,quaac
 sphinx,quaac
+tox,django-coverage-plugin
 build,django-coverage-plugin
 matplotlib,nfl-veripy
 pandas,nfl-veripy
@@ -62761,6 +62989,14 @@ scipy,oct2py
 pytest,oct2py
 pandas,oct2py
 scipy,rcsb.utils.dictionary
+rcsb.utils.citation,rcsb.utils.dictionary
+rcsb.utils.config,rcsb.utils.dictionary
+rcsb.utils.ec,rcsb.utils.dictionary
+rcsb.utils.io,rcsb.utils.dictionary
+rcsb.utils.multiproc,rcsb.utils.dictionary
+rcsb.utils.repository,rcsb.utils.dictionary
+rcsb.utils.struct,rcsb.utils.dictionary
+rcsb.utils.targets,rcsb.utils.dictionary
 scipy,audio-purifier
 build,diamondpack
 colorama,diamondpack
@@ -62786,6 +63022,7 @@ scipy,shgo
 pytest,linkedinpdfextractor
 tox,linkedinpdfextractor
 virtualenv,linkedinpdfextractor
+wxpython,temp5
 python-dotenv,achilles
 typer,calamancy
 black,calamancy
@@ -62858,6 +63095,7 @@ transforms3d,real-robot
 urchin,real-robot
 scipy,real-robot
 pytest,pip-services3-gcp
+flask,pip-services3-gcp
 pandas,spatialdata
 pooch,spatialdata
 shapely,spatialdata
@@ -62908,6 +63146,10 @@ pydantic,paradigm-client
 requests,paradigm-client
 tqdm,paradigm-client
 pytest,paradigm-client
+flask,archivy
+wtforms,archivy
+requests,archivy
+flask-login,archivy
 pandas,opentnsim
 pyproj,opentnsim
 requests,opentnsim
@@ -62969,10 +63211,20 @@ scipy,dtale
 threadpoolctl,dtale
 threadpoolctl,dtale
 mkdocs,mkdocs-toc-md
+pydantic,justuse
+pytest,justuse
+pytest-env,justuse
+requests,justuse
 pytest,ibm-eventnotifications
 black,ibm-eventnotifications
 requests,biomedicus-client
 pytest,biomedicus-client
+dlint,tlv
+flake8,tlv
+flake8-comprehensions,tlv
+flake8-executable,tlv
+flake8-quotes,tlv
+flake8-string-format,tlv
 flake8,edrixs
 pytest,edrixs
 sphinx,edrixs
@@ -63164,6 +63416,9 @@ matplotlib,plottable
 pandas,plottable
 tqdm,xenonpy
 requests,xenonpy
+pandas,xenonpy
+scikit-learn,xenonpy
+scipy,xenonpy
 flask,pharus
 gunicorn,pharus
 envyaml,pharus
@@ -63174,6 +63429,10 @@ sympy,bitcoin-utils
 hdwallet,bitcoin-utils
 flake8,frequenz-client-common
 pandas,schema-compare
+build,stellrent-response
+pytest,stellrent-response
+pytest-xdist,stellrent-response
+pytest-qt,stellrent-response
 pytest,cloudzero-uca-tools
 pytest-mock,cloudzero-uca-tools
 pytest-env,cloudzero-uca-tools
@@ -63247,7 +63506,9 @@ tqdm,deepl-fastapi-pw
 uvicorn,deepl-fastapi-pw
 tox,liveandletdie
 cryptography,odoo-addon-base-kanban-stage-state
+black,compas-dr
 bump-my-version,compas-dr
+invoke,compas-dr
 pandas,sequence-unet
 tqdm,sequence-unet
 build,notecache
@@ -63257,6 +63518,8 @@ dm-haiku,sbijax
 optax,sbijax
 surjectors,sbijax
 tqdm,sbijax
+pytest,palm
+black,palm
 requests,put_in_pocket
 pytest,cosmopy
 flake8,cosmopy
@@ -63658,6 +63921,7 @@ sphinx,scsharp
 tzlocal,scsharp
 scipy,stdatamodels
 cutie,pastelaria
+pydantic,lightning-bagua
 scipy,wetools
 pydantic,pydantic-redis
 pytest,pydantic-redis
@@ -63690,6 +63954,13 @@ invoke,fabric2
 pytest-relaxed,fabric2
 flake8,fabric2
 black,fabric2
+dlint,oelint-adv
+flake8,oelint-adv
+flake8-comprehensions,oelint-adv
+flake8-executable,oelint-adv
+flake8-quotes,oelint-adv
+flake8-string-format,oelint-adv
+pytest,oelint-adv
 colorama,eule
 pytest,eule
 requests,eule
@@ -63983,7 +64254,9 @@ scipy,simulariumio
 matplotlib,flowtron
 scipy,flowtron
 httpx,sellapp
+black,psec
 flake8,psec
+pytest,psec
 requests,pybots
 tinyscript,pybots
 requests,tap-shortcut
@@ -64052,6 +64325,7 @@ requests,devo-sdk
 cryptography,devo-sdk
 cryptography,odoo13-addon-account-bank-statement-import-online-qonto
 black,boringavatars
+arabica,animatedwordcloud
 tox,keycloak-fetch-bot
 pytest,keycloak-fetch-bot
 build,keycloak-fetch-bot
@@ -64155,6 +64429,8 @@ flake8,altwalker
 pytest,altwalker
 requests,ltadatamall
 cryptography,odoo-addon-l10n-es-facturae
+matplotlib,rozha
+textblob,rozha
 scipy,nntry
 matplotlib,nntry
 scikit-learn,nntry
@@ -64363,6 +64639,7 @@ mkdocs,ros-cdk-hbr
 tqdm,ros-cdk-hbr
 mkdocs,ros-cdk-dfs
 tqdm,ros-cdk-dfs
+docker,dockersh
 mkdocs,ros-cdk-imm
 tqdm,ros-cdk-imm
 mkdocs,ros-cdk-ecd
@@ -64554,6 +64831,8 @@ mkdocs,python_vscode_template
 mkdocs-autorefs,python_vscode_template
 pytest,python_vscode_template
 tox,python_vscode_template
+pytest,easyvec
+flake8,easyvec
 scikit-learn,ibaqpy
 pyopenms,ibaqpy
 pandas,ibaqpy
@@ -64977,6 +65256,8 @@ pandas,ocrtoolkit
 matplotlib,ocrtoolkit
 tqdm,ocrtoolkit
 scikit-learn,ocrtoolkit
+pytest-mock,wintry
+pytest,wintry
 scikit-learn,neuralplex
 scipy,neuralplex
 matplotlib,sierras
@@ -65312,6 +65593,8 @@ manageprojects,energymeter2mqtt
 tox,energymeter2mqtt
 autopep8,energymeter2mqtt
 flake8,energymeter2mqtt
+requests,pidevguru-piwebapi
+requests-kerberos,pidevguru-piwebapi
 tox,graphene-tornado
 djangorestframework,django-typomatic
 pytest,django-typomatic
@@ -65535,6 +65818,10 @@ autopep8,jax-fdm
 doc8,jax-fdm
 flake8,jax-fdm
 graphviz,jax-fdm
+invoke,jax-fdm
+ipython,jax-fdm
+pytest,jax-fdm
+sphinx,jax-fdm
 matplotlib,jax-fdm
 pytest,pycrunch-engine
 python-socketio,pycrunch-engine
@@ -65740,6 +66027,8 @@ treon,redisvl
 pytest,pytest-codspeed
 cryptography,odoo14-addon-l10n-es-payment-order-confirming-sabadell
 pytest,robotframework-pythonlibcore
+black,robotframework-pythonlibcore
+invoke,robotframework-pythonlibcore
 colorama,nsaphx
 cryptography,nsaphx
 iniconfig,nsaphx
@@ -66027,6 +66316,7 @@ sphinx,xlsx2html
 scikit-learn,sgw-tools
 scipy,sgw-tools
 matplotlib,sgw-tools
+matplotlib,fast-trade
 requests,fast-trade
 black,aika
 pyproject-fmt,aika
@@ -66091,6 +66381,7 @@ pynndescent,scib-metrics
 matplotlib,scib-metrics
 plottable,scib-metrics
 tqdm,scib-metrics
+pydantic,uqpydtos
 cryptography,odoo13-addon-base-name-search-multi-lang
 scipy,btensor
 build,bh-utils
@@ -66157,6 +66448,7 @@ flake8,prefect-planetary-computer
 mkdocs,prefect-planetary-computer
 cryptography,odoo13-addon-iap-alternative-provider
 scipy,tuncat
+scikit-learn,tuncat
 matplotlib,tuncat
 requests,deepdanbooru
 pytest,bq-tabulate
@@ -66182,6 +66474,10 @@ colorama,sublime-cli
 log-symbols,sublime-cli
 msg-parser,sublime-cli
 requests,sublime-cli
+scipy,dajin2
+pandas,dajin2
+scikit-learn,dajin2
+flask,dajin2
 pandas,earth-osm
 tqdm,earth-osm
 requests,earth-osm
@@ -66371,6 +66667,7 @@ requests,term-from-nat
 invoke,rdeploy
 python-dotenv,rdeploy
 requests,rdeploy
+lib4sbom,sbom4files
 cryptography,odoo12-addon-l10n-es-aeat-mod390
 black,gcal-sync
 pdoc,gcal-sync
@@ -66388,6 +66685,8 @@ matplotlib,ppacls
 tqdm,ppacls
 scikit-learn,ppacls
 sphinx,edaspiffworkflow
+scipy,neuropythy
+matplotlib,neuropythy
 pandas,hw1-curr
 matplotlib,hw1-curr
 sphinx,aiogram
@@ -66411,8 +66710,10 @@ uvicorn,fastapi-crud-code-generator
 pandas,better-template-matching
 requests,better-template-matching
 pandas,ta-cn
+black,compas-view2
 doc8,compas-view2
 flake8,compas-view2
+invoke,compas-view2
 flask,opencve
 flask-assets,opencve
 flask-sqlalchemy,opencve
@@ -66471,6 +66772,7 @@ requests,osmsc
 shapely,osmsc
 osmnx,osmsc
 contextily,osmsc
+identify,magic-identify
 pythontk,m3trik
 uitk,m3trik
 mayatk,m3trik
@@ -66547,6 +66849,7 @@ matplotlib,pyodesys
 black,compas
 doc8,compas
 flake8,compas
+invoke,compas
 flake8,cabina
 pytest,cabina
 requests,sploitkit
@@ -66573,6 +66876,7 @@ sphinx,ptulsconv
 pytest,watcher-cli
 build,watcher-cli
 build,frolic-engine
+lib4sbom,sbom2dot
 matplotlib,codonu
 requests,houseparty
 httpx,wolf-comm
@@ -66705,9 +67009,11 @@ pytest,primrose
 scipy,veritastool
 scikit-learn,veritastool
 pandas,veritastool
+ipython,veritastool
 matplotlib,veritastool
 tqdm,veritastool
 shap,veritastool
+pytest,veritastool
 matplotlib,gillespy2
 scipy,gillespy2
 cryptography,karrio.dpd
@@ -67091,6 +67397,7 @@ scipy,suite2p
 scikit-learn,suite2p
 pandas,articat
 pytest,articat
+requests,openerz-api
 requests,bpx-api
 cryptography,bpx-api
 requests,bpx-api
@@ -67409,6 +67716,10 @@ notebook,ale-uy
 optuna,ale-uy
 requests,bosh-inventory
 requests,photoprism-client
+sphinx,datalogy
+flake8,datalogy
+requests,datalogy
+tox,datalogy
 flask,tdwnsv3
 cryptography,tdwnsv3
 requests,bundletester
@@ -67684,11 +67995,13 @@ matplotlib,celldancer
 pandas,pmultiqc
 pyteomics,pmultiqc
 pyopenms,pmultiqc
+sdrf-pipelines,pmultiqc
 cryptography,odoo-addon-mail-partner-opt-out
 pandas,geocode-ss
 requests,geocode-ss
 pyproj,geocode-ss
 shapely,geocode-ss
+sphinx,django-wsgi3
 ipython,django-wsgi3
 flake8,apparate
 iniconfig,apparate
@@ -67734,6 +68047,8 @@ cosmology.api,cosmology.api
 pytest,cosmology.api
 furo,cosmology.api
 sphinx,cosmology.api
+pyutilb,m3u8dwn
+httpx,m3u8dwn
 scipy,hiconet
 pandas,hiconet
 scanpy,hiconet
@@ -68129,6 +68444,7 @@ pandas,encoders
 scikit-learn,encoders
 pandas,sekiryu
 requests,nutanix-api
+scipy,pyrsb
 my-notebook-app,lilzey
 lilzey,lilzey
 zenith-tea,lilzey
@@ -68685,6 +69001,12 @@ colorama,spyl
 requests,fortnite-api
 uvicorn,ellar-cli
 pytest,pyyaotp
+pytest,topdrawersoccer-sdk
+pytest-mock,topdrawersoccer-sdk
+invoke,topdrawersoccer-sdk
+flake8,topdrawersoccer-sdk
+python-semantic-release,topdrawersoccer-sdk
+sphinx,topdrawersoccer-sdk
 netcdf4,enstools-compression
 pytest,enstools-compression
 pytest-mock,enstools-compression
@@ -68749,6 +69071,7 @@ markdown,django-markdownx
 boto3,aws-cost-mutilator
 tqdm,aws-cost-mutilator
 requests,creopyson
+requests,python-huawei-push-admin
 mousekey,a-selenium-absolute-screencoords
 turbo-tunnel,tuic-tunnel
 pandas,a-selenium-screenshots-all-elements
@@ -69153,6 +69476,7 @@ flask-cors,linkero
 gevent,linkero
 colorama,linkero
 behave,testgear-adapter-nose
+pytest,testgear-adapter-nose
 colorama,fib-py-nkandy44
 requests,fib-py-nkandy44
 requests-toolbelt,fib-py-nkandy44
@@ -69187,6 +69511,7 @@ python-dotenv,contentstack-management
 requests,contentstack-management
 requests-toolbelt,contentstack-management
 pytest,airflow-hop-plugin-custom
+pandas,stock-pandas
 boto3,cwhy
 build,jupyterlab-language-pack-ca-es
 pydantic,jupyterlab-language-pack-ca-es
@@ -69261,6 +69586,7 @@ rasterio,vipersci
 requests,vipersci
 scikit-learn,vipersci
 shapely,vipersci
+flask,dfir-unfurl
 requests,dfir-unfurl
 ulid-py,dfir-unfurl
 black,preliz
@@ -69505,6 +69831,7 @@ gevent,kong-pdk
 requests,ppyoloe
 tqdm,ppyoloe
 paddle2onnx,ppyoloe
+black,spine-engine
 cryptography,endesive
 pykcs11,endesive
 requests,endesive
@@ -70004,6 +70331,8 @@ pytest,opfuncs
 pytest,pytraj
 pandas,getfilestats
 pytest,pollination-cumulative-radiation
+flask,pyvpsolver
+pytest,pyvpsolver
 pandera,lixinger
 pydantic,lixinger
 requests,lixinger
@@ -70015,6 +70344,8 @@ tdqm,ngwidgets
 pygithub,ngwidgets
 tox,pip-requ
 virtualenv,pip-requ
+langdetect,pydetex
+requests,pydetex
 shap,ml-wrappers
 mlflow,ml-wrappers
 pandas,aranet4-graph
@@ -70069,6 +70400,8 @@ flake8,bldr
 iniconfig,bldr
 pytest,bldr
 pytest-console-scripts,bldr
+pytest,hy
+sphinx,hy
 build,siggen
 pytest,siggen
 tox,siggen
@@ -70113,6 +70446,12 @@ pyproject-fmt,vws-test-fixtures
 pyright,vws-test-fixtures
 sphinx,vws-test-fixtures
 sphinx-substitution-extensions,vws-test-fixtures
+scipy,mindspore-ascend-dev
+matplotlib,mindspore-ascend-dev
+scikit-learn,mindspore-ascend-dev
+pandas,mindspore-ascend-dev
+tables,mindspore-ascend-dev
+astunparse,mindspore-ascend-dev
 pandas,smoltools
 altair,smoltools
 scipy,smoltools
@@ -70693,6 +71032,10 @@ pytest-rerunfailures,isla-solver
 pytest-xdist,isla-solver
 pytest,isla-solver
 tox,isla-solver
+tqdm,al-khatma-lib
+requests,al-khatma-lib
+pandas,al-khatma-lib
+gdown,al-khatma-lib
 black,celery-redbeat
 redis,celery-redbeat
 pytest,wagtail-ai
@@ -71027,6 +71370,7 @@ pandas,data4llm
 tqdm,data4llm
 scipy,asdm
 pandas,asdm
+tox,pypesto
 scanspec,nexgen
 pydantic,nexgen
 black,nexgen
@@ -71045,6 +71389,8 @@ black,compas-fofin
 doc8,compas-fofin
 flake8,compas-fofin
 graphviz,compas-fofin
+invoke,compas-fofin
+ipython,compas-fofin
 pytest,compas-fofin
 sphinx,compas-fofin
 pandas,adase-api
@@ -71112,6 +71458,8 @@ tqdm,enformer-dna-diff
 requests,loggerflow
 fastapi,loggerflow
 uvicorn,loggerflow
+requests,dropbox
+stone,dropbox
 pytest,dropbox
 sphinx,dropbox
 pandas,quest-eras
@@ -71192,6 +71540,11 @@ bokeh,odoo-addon-web-m2x-options
 mpld3,odoo-addon-web-m2x-options
 pypdf2,odoo-addon-delivery-purchase
 httpx,sentry-cronjob-monitoring-johanalmquist
+cattrs,cada-prio
+tqdm,cada-prio
+uvicorn,cada-prio
+fastapi,cada-prio
+python-dotenv,cada-prio
 flake8,vsdeband
 pytest,libapi
 wagtail-modeladmin,wagtailgridder
@@ -71250,6 +71603,7 @@ mkdocs,zfel
 flake8,zfel
 scikit-learn,pybatteryid
 matplotlib,pybatteryid
+wxpython,mpt5.0.3.1
 pyllama,chatllama
 pytest,jupyterlab-server-timer
 flake8,sag-py-logging
@@ -71280,6 +71634,8 @@ pypdf,odoo-addon-edi-voxel-account-invoice-oca
 scipy,chewbbaca
 pandas,chewbbaca
 requests,chewbbaca
+scipy,pomegranate
+scikit-learn,pomegranate
 pandas,makerlabs
 requests,makerlabs
 st-theme,st-theme
@@ -71596,6 +71952,9 @@ mkdocs-section-index,edsnlp
 mkdocs,edsnlp
 astunparse,edsnlp
 markdown,galai
+cached-property,mailru-im-bot-updated
+requests,mailru-im-bot-updated
+gtts,mailru-im-bot-updated
 pandas,exchange-calendars
 flake8,exchange-calendars
 pytest,exchange-calendars
@@ -72082,6 +72441,10 @@ sphinx,django-migration-snapshots
 graphviz,django-migration-snapshots
 pandas,libcbm
 scipy,libcbm
+flake8,pyconza2014
+pytest,pyconza2014
+sphinx,pyconza2014
+tox,pyconza2014
 scipy,calfcv
 scikit-learn,calfcv
 pandas,calfcv
@@ -72101,6 +72464,7 @@ pydantic,gts-engine
 tqdm,gts-engine
 uvicorn,gts-engine
 requests,autogram
+requests,nevada
 pytest,yogger
 pytest-xdist,yogger
 requests,yogger
@@ -72652,6 +73016,7 @@ dlint,repository-orm
 scipy,alpha-automl
 scikit-learn,alpha-automl
 pandas,alpha-automl
+scipion-em,scipion-em-xmipptomo
 scipy,torchiva
 tqdm,torchiva
 requests,wikibasedataconnector
@@ -72869,6 +73234,7 @@ furo,asgardpy
 myst-parser,asgardpy
 pytest,aws-az-failure-chaostoolkit
 black,aws-az-failure-chaostoolkit
+requests,redfish-client
 sympy,xaddpy
 pytest,scikit-surgeryvtk
 pytest-qt,scikit-surgeryvtk
@@ -72932,6 +73298,8 @@ typer,nanopub
 pytest,nanopub
 flake8,nanopub
 flaky,nanopub
+pytest,adversarial-vision-challenge
+flake8,adversarial-vision-challenge
 pandas,maxfuse
 scanpy,maxfuse
 scipy,maxfuse
@@ -72991,9 +73359,11 @@ scipy,autoprof
 paramiko,odoo10-addon-storage-thumbnail
 paramiko,odoo10-addon-storage-image-product-pos
 paramiko,odoo10-addon-storage-image-product
+pandas,parallel-pandas
 tqdm,parallel-pandas
 fastapi,delibird
 uvicorn,delibird
+redis,delibird
 black,subseq
 pytest,subseq
 gitpython,xl2times
@@ -73279,6 +73649,8 @@ pyproj,streetviewdownloader
 requests,streetviewdownloader
 shapely,streetviewdownloader
 pytest,edgerun-galileo
+cloudgenix,cgxsh
+cryptography,cgxsh
 scipy,pyformetrix
 pandas,pyformetrix
 tqdm,pyformetrix
@@ -73287,6 +73659,7 @@ shapely,pyformetrix
 rioxarray,pyformetrix
 tqdm,htmltable-cli
 requests,udi-interface
+cloudgenix,prisma-sh
 flake8,rastervision
 moto,rastervision
 gevent,parallel-ssh
@@ -73588,6 +73961,10 @@ tables,lsst-efd-client
 pytest,lsst-efd-client
 documenteer,lsst-efd-client
 cryptography,odoo-addon-l10n-es-aeat-mod123
+ipython,pyqcams
+matplotlib,pyqcams
+pandas,pyqcams
+scipy,pyqcams
 arrow,owl-on-fhir
 colorama,owl-on-fhir
 graphviz,owl-on-fhir
@@ -73741,6 +74118,7 @@ scikit-learn,medcam3d
 arrow,django-jinx
 polib,django-jinx
 requests,django-jinx
+pytest,diaparser
 pytest,ledmx
 flake8,ledmx
 requests,forexrateapi
@@ -73812,6 +74190,7 @@ sphinx_mdinclude,eo-learn-visualization
 requests,william-chromedriver-manager
 tqdm,william-chromedriver-manager
 tox,appmap
+flask,appmap
 pytest-django,appmap
 fastapi,appmap
 httpx,appmap
@@ -73892,6 +74271,8 @@ threadpoolctl,synthetic-combinations
 tqdm,synthetic-combinations
 flake8,openapify
 black,openapify
+pytest,iga
+pytest-mock,iga
 myst-parser,iga
 scipy,physio
 pandas,physio
@@ -74059,6 +74440,11 @@ pytest,qiskit-sphinx-theme
 docker-compose,docky
 plumbum,docky
 requests,docky
+pytest,taupe
+pytest-mock,taupe
+flake8,taupe
+flake8-comprehensions,taupe
+flake8-executable,taupe
 h5mapper,mimikit
 matplotlib,mimikit
 pandas,mimikit
@@ -74108,6 +74494,7 @@ docker,tern
 requests,tern
 gitpython,tern
 prettytable,tern
+requests,spider-renderer
 requests,lidl-plus
 scipy,rqcopt
 requests,energypriceapi
@@ -74359,6 +74746,8 @@ pytest,flask-dantic
 flask,flask-dantic
 scipy,kermit-sdr
 pandas,kermit-sdr
+lib4sbom,sbomaudit
+lib4package,sbomaudit
 requests,sbomaudit
 bokeh,cardioception-toolbox
 cardioception,cardioception-toolbox
@@ -74378,6 +74767,7 @@ flake8,crochet
 cryptography,odoo11-addon-l10n-es-aeat-mod303-oss
 requests,sped-extractor
 pypdf2,sped-extractor
+requests,m3u-ipytv
 ha-services,pysmartmeter
 cli-base-utilities,pysmartmeter
 rich-click,pysmartmeter
@@ -74462,6 +74852,7 @@ pandas,hlr
 matplotlib,hlr
 pingouin,hlr
 python-dotenv,substreams_firehose
+lib4sbom,distro2sbom
 scikit-build,pyoperon
 colorama,robotstxt
 iniconfig,robotstxt
@@ -74532,7 +74923,11 @@ pytest,bettermap
 pytest-sphinx,bettermap
 flaky,bettermap
 numpy-financial,odoo-addon-account-balance-line
+black,deltacat-fork
+flake8,deltacat-fork
 moto,deltacat-fork
+pytest,deltacat-fork
+requests-mock,deltacat-fork
 sphinx,sphinx-argparse-cli
 pandas,a-pandas-ex-to-tuple
 requests,nic-api
@@ -74584,6 +74979,9 @@ langdetect,asolytics
 pytest,pytorch-lattice
 build,am4894airflowutils
 pytest,am4894airflowutils
+pandas,predacons
+pypdf2,predacons
+python-docx,predacons
 requests,ciscompphwdiscovery
 tqdm,ciscompphwdiscovery
 tqdm,comandor
@@ -74734,6 +75132,7 @@ matplotlib,prospr
 pandas,prospr
 pytest,daachorse
 requests,reach-talkylabs
+pydantic,tsx
 feedparser,ws.rsspull
 requests,ws.rsspull
 flake8,b64s
@@ -75410,6 +75809,9 @@ cryptography,default-scraper
 pandas,default-scraper
 requests,default-scraper
 trio,default-scraper
+requests,melctl-client
+pydantic,melctl-client
+python-jose,melctl-client
 matplotlib,brainbow
 scipy,brainbow
 tqdm,brainbow
@@ -75494,10 +75896,19 @@ requests,geniusrise-prompt-actions
 requests-oauthlib,geniusrise-prompt-actions
 requests-toolbelt,geniusrise-prompt-actions
 rich-argparse,geniusrise-prompt-actions
+requests,enterpriseattack
 tables,scdml
 scanpy,scdml
 nbformat,scdml
 django-model-utils,django-scrubber
+python-dotenv,hyperdrive
+pandas,hyperdrive
+boto3,hyperdrive
+scipy,hyperdrive
+scikit-learn,hyperdrive
+cryptography,hyperdrive
+ta,hyperdrive
+python-binance,hyperdrive
 scipy,yolov6detect
 tqdm,yolov6detect
 mkdocs,serious
@@ -75616,6 +76027,8 @@ requests,finvizlite
 colorama,robotframework-dbus
 genpackagedoc,robotframework-dbus
 pythonextensionscollection,robotframework-dbus
+flake8,obrewin
+black,obrewin
 tqdm,pyshbak
 zeroconf,pychromecast
 chaostoolkit-lib,chaostoolkit-reliably
@@ -75842,6 +76255,7 @@ jupyter-core,meter-digits-recognizer
 matplotlib,meter-digits-recognizer
 pytest,meter-digits-recognizer
 sympy,meter-digits-recognizer
+requests,nonebot-plugin-stupidjdsd
 nebula3-python,ipython-ngql
 pandas,ipython-ngql
 tqdm,ipython-ngql
@@ -75849,8 +76263,16 @@ pandas,deepbreaks
 scikit-learn,deepbreaks
 scipy,deepbreaks
 matplotlib,deepbreaks
+gitpython,pygtftk
 cloudpickle,pygtftk
 graphviz,pygtftk
+matplotlib,pygtftk
+pandas,pygtftk
+plotnine,pygtftk
+pybedtools,pygtftk
+requests,pygtftk
+scikit-learn,pygtftk
+scipy,pygtftk
 pytest,moneywiz-api
 black,moneywiz-api
 build,moneywiz-api
@@ -75983,6 +76405,7 @@ ipython,imagecat
 behave,imagecat
 sphinx,imagecat
 black,cwe2
+pytest,cwe2
 black,rofi-tmuxp
 flake8,rofi-tmuxp
 pytest,rofi-tmuxp
@@ -76016,6 +76439,7 @@ tox-pdm,bypass-url-parser
 virtualenv,bypass-url-parser
 requests,siibra
 nilearn,siibra
+ebrains-drive,siibra
 cryptography,odoo-addon-base-user-show-email
 python-jose,odoo-addon-base-user-show-email
 mkdocs,cloudspeak
@@ -76346,6 +76770,7 @@ tox,txmongo
 pandas,pybudgetplot
 matplotlib,pybudgetplot
 pypdf2,odoo-addon-delivery-carrier-account
+python-dotenv,personalized-slack-bot
 flake8,httpx-socks
 pytest,httpx-socks
 trio,httpx-socks
@@ -76430,6 +76855,7 @@ build,tslumen
 tweepy,twitter_bot_utils
 scipy,raytools
 tqdm,raytools
+requests,netpackaio
 elementpath,odoo14-addon-l10n-it-reverse-charge
 requests,pymatillion
 matplotlib,deltares-wave-toolbox
@@ -76945,6 +77371,14 @@ scikit-learn,antspynet
 requests,antspynet
 matplotlib,antspynet
 pytest,shopify-python
+astropy,pyscope
+cmcrameri,pyscope
+markdown,pyscope
+matplotlib,pyscope
+paramiko,pyscope
+prettytable,pyscope
+scipy,pyscope
+tqdm,pyscope
 tqdm,autothread
 scipy,pybispectra
 mne,pybispectra
@@ -77054,6 +77488,10 @@ scikit-learn,songcn
 tqdm,songcn
 requests,slack-watchman
 colorama,slack-watchman
+scipy,cfdtools
+pyvista,cfdtools
+matplotlib,cfdtools
+pytest,cfdtools
 pandas,ebel-rest
 ipython,ebel-rest
 graphviz,ebel-rest
@@ -77264,6 +77702,8 @@ spike-py,spike-py
 scipy,spike-py
 matplotlib,spike-py
 tables,spike-py
+easyqc,viewephys
+ibl-neuropixel,viewephys
 pandas,viewephys
 cryptography,odoo-addon-payment-redsys
 pandas,hass-data-detective
@@ -77492,6 +77932,7 @@ pandas,qpbenchmark
 qpsolvers,qpbenchmark
 black,propertize
 build,propertize
+sphinx,propertize
 pypdf2,odoo-addon-delivery-estimated-package-quantity-by-weight
 matplotlib,peaklets
 pytest,peaklets
@@ -77585,7 +78026,9 @@ pygame-gui,darwinio
 autopep8,pipepermcalc
 pytest,pipepermcalc
 flask,flask-pymemcache
+pytest,jprm
 flake8,jprm
+djangorestframework,balafon
 django-extensions,balafon
 django-cors-headers,balafon
 boto3,cloud-volume
@@ -77765,6 +78208,7 @@ shapely,pyxodr
 matplotlib,mmseg-ext
 scikit-learn,mmseg-ext
 prettytable,mmseg-ext
+pyedgeeval,mmseg-ext
 matplotlib,scenario-gym
 pyxodr,scenario-gym
 scipy,scenario-gym
@@ -78014,6 +78458,8 @@ schedule,01memories
 astropy,formosa
 matplotlib,formosa
 scipy,formosa
+sphinx,crystals
+pytest,crystals
 flake8,pygsim
 sphinx,pygsim
 tox,pygsim
@@ -78104,6 +78550,7 @@ typer,hudson
 uvicorn,hudson
 asyncpg,hudson
 black,hudson
+boto3,aws-ssm-tools
 requests,idds-server
 flake8,idds-server
 pytest,idds-server
@@ -78178,6 +78625,7 @@ uncertainties,palmiche
 prolif,palmiche
 scipy,palmiche
 pandas,a-pandas-ex-logcat2df
+pygithub,hit-cli
 matplotlib,crtoolbox
 pandas,crtoolbox
 nilearn,crtoolbox
@@ -78329,6 +78777,9 @@ irispy-lmsal,irispy-lmsal
 docker,neofs-testlib
 paramiko,neofs-testlib
 requests,neofs-testlib
+pandas,smart-dummy
+pydantic,smart-dummy
+scikit-learn,smart-dummy
 black,nbgitpuller-link
 flake8,nbgitpuller-link
 nox,nbgitpuller-link
@@ -78418,6 +78869,7 @@ flake8,docstring-to-markdown
 pytest,pollination-ladybug
 flake8,conda-forge-metadata
 flaky,conda-forge-metadata
+pytest,conda-forge-metadata
 black,weak-annotators
 flake8,weak-annotators
 scanpy,screenpro2
@@ -78612,6 +79064,9 @@ tox,reactord
 ipython,reactord
 matplotlib,reactord
 ipython,reactord
+pandas,reactord
+scipy,reactord
+sympy,reactord
 pytest,roboflowsocket
 flake8,roboflowsocket
 fire,abqpy
@@ -78761,6 +79216,7 @@ tqdm,icepy4d
 mkdocs,mkdocs-pyscript
 flask,pytohtml
 py2js,pytohtml
+pandas,sentibank
 requests,pmemstat
 djangorestframework,djaodjin-saas
 markdown,djaodjin-saas
@@ -78883,10 +79339,17 @@ requests,pacer-builder
 requests-oauthlib,pacer-builder
 tzlocal,pacer-builder
 xpinyin,pacer-builder
+matplotlib,decare
+pandas,decare
+scanpy,decare
+scikit-learn,decare
+scipy,decare
 cryptography,py-data-mock
 requests,py-data-mock
 requests-toolbelt,py-data-mock
 requests,mindsdb-sdk
+pandas,mindsdb-sdk
+mindsdb-sql,mindsdb-sdk
 powerapi,smartwatts
 scikit-learn,smartwatts
 pytest,smartwatts
@@ -78902,6 +79365,8 @@ black,sjtrade
 pytest,sjtrade
 pytest-mock,sjtrade
 pytest,linkotron
+netcdf4,pyroscopegriddingcpu
+pandas,pyroscopegriddingcpu
 build,jppype
 pandas,region-estimators
 pyproj,region-estimators
@@ -79028,6 +79493,7 @@ requests,prauto
 tqdm,prauto
 matplotlib,fedtoy
 pytest,fedtoy
+pytest,arize-phoenix-evals
 pypdf2,odoo11-addon-delivery-carrier-label-postlogistics
 arrow,gscdash
 black,gscdash
@@ -79121,12 +79587,17 @@ black,compas-tno
 doc8,compas-tno
 flake8,compas-tno
 graphviz,compas-tno
+invoke,compas-tno
+ipython,compas-tno
+pytest,compas-tno
+sphinx,compas-tno
 adafruit-ampy,fengmm521-blecam
 pytest,ledgered
 requests,floom
 pypdf,odoo-addon-sale-order-import
 tqdm,lsverifier
 requests,hargassner
+flake8,ez-txt2html-bryce-seefieldt
 black,ez-txt2html-bryce-seefieldt
 pytest,ez-txt2html-bryce-seefieldt
 pytest,gen3-util
@@ -79240,7 +79711,9 @@ scikit-learn,medmnist
 tqdm,medmnist
 fire,medmnist
 pandas,jaxdlm
+black,smbprotocol-legacy
 build,smbprotocol-legacy
+cryptography,smbprotocol-legacy
 pyspnego,smbprotocol-legacy
 pytest,smbprotocol-legacy
 pytest-mock,smbprotocol-legacy
@@ -79352,6 +79825,8 @@ srtrain,koreatrain
 requests,ghfetch-pip
 pooch,lytemaps
 scipy,lytemaps
+pytest,fastfft
+flake8,fastfft
 matplotlib,ltepy
 astropy,ltepy
 sphinx,ltepy
@@ -79443,6 +79918,7 @@ metabolabpy,qtmetabolabpy
 scipy,qtmetabolabpy
 matplotlib,qtmetabolabpy
 pypdf2,qtmetabolabpy
+cryptography,pytrustnfe3
 pytest,pyopenspecy
 tox,pyopenspecy
 virtualenv,pyopenspecy
@@ -79484,6 +79960,8 @@ tox,pytest-variables
 redis,meesee
 pymdown-extensions,learn2learn
 mkdocs,learn2learn
+requests,pymart
+pandas,pymart
 mkdocs,flagship-sdk
 sphinx,emeralds
 xmlrunner,ratr0-utils
@@ -79625,6 +80103,7 @@ pytest,fastapi_users_db_sync_sqlalchemy
 black,fastapi_users_db_sync_sqlalchemy
 pytest-mock,fastapi_users_db_sync_sqlalchemy
 httpx,fastapi_users_db_sync_sqlalchemy
+pandas,spotipy-pandas
 requests,wtisdk
 pytest,wtisdk
 pytest-mock,wtisdk
@@ -79632,7 +80111,11 @@ matplotlib,streamlit-wordcloud-updated
 sphinx,grg-sphinx-theme
 pytest,grg-sphinx-theme
 pytest-xdist,grg-sphinx-theme
+pytest,pykoopman
+pytest-lazy-fixture,pykoopman
+notebook,pykoopman
 sphinx-codeautolink,pykoopman
+sphinx,pykoopman
 cryptography,odoo10-addon-email-template-qweb
 requests,cellmaps-imagedownloader
 pandas,cellmaps-imagedownloader
@@ -79686,6 +80169,7 @@ scipy,burdoc
 pandas,burdoc
 timm,burdoc
 requests,vmlogin
+pydantic,phractal
 pandas,uffspd
 requests,uffspd
 pytest,tracker-exporter
@@ -79894,6 +80378,7 @@ pandas,nselib
 requests,nselib
 cryptography,odoo14-addon-mail-inline-css
 edalize,pueda
+pyverilator-mm,pueda
 pandas,pypestutils
 flopy,pypestutils
 pyemu,pypestutils
@@ -79908,6 +80393,11 @@ pytest,pygazpar
 requests,pygazpar
 python-dotenv,pygazpar
 pandas,pygazpar
+flake8,commonpy
+flake8-comprehensions,commonpy
+flake8-executable,commonpy
+pytest,commonpy
+pytest-mock,commonpy
 pydra,fileformats-medimage-afni-extras
 fileformats-datascience,fileformats-medimage-afni-extras
 fileformats-medimage,fileformats-medimage-afni-extras
@@ -79950,6 +80440,9 @@ requests,yt-dlp
 pytest,eightbar
 tox,eightbar
 virtualenv,eightbar
+pytest,gerabaldi
+pymc,gerabaldi
+matplotlib,gerabaldi
 cryptography,fast-rabbit
 iniconfig,fast-rabbit
 pydantic,fast-rabbit
@@ -80145,7 +80638,9 @@ bokeh,mmm-savings-rate
 pandas,mmm-savings-rate
 requests,mmm-savings-rate
 cattrs,linehaul
+black,compas-model
 bump-my-version,compas-model
+invoke,compas-model
 pytest,pivimage
 kstopit,selenium-account
 conveyant,hyve
@@ -80322,6 +80817,8 @@ requests-mock,airflow-notebook
 requests-unixsocket,airflow-notebook
 flake8,bool-to-int8-ray
 pytest,bool-to-int8-ray
+scikit-build,pc-ble-driver-py
+tox,pc-ble-driver-py
 xmlrunner,pc-ble-driver-py
 boto3,circless3storage
 dokr,circless3storage
@@ -80626,6 +81123,7 @@ uvicorn,hypha
 httpx,hypha
 redis,hypha
 sse-starlette,hypha
+matplotlib,thapbi-pict
 param,pyviz-comms
 elementpath,odoo14-addon-l10n-it-asset-history-import
 requests,pyhamilton
@@ -80762,6 +81260,8 @@ attribution,nalax
 black,nalax
 flake8,nalax
 flit,nalax
+pytest,imswitchuc2
+pytest-qt,imswitchuc2
 cryptography,nicheimage
 pydantic,nicheimage
 requests,nicheimage
@@ -80784,6 +81284,12 @@ matplotlib,bfieldtools
 pyvista,bfieldtools
 cvxpy,bfieldtools
 shapely,bfieldtools
+scipy,mindspore-lite
+matplotlib,mindspore-lite
+scikit-learn,mindspore-lite
+pandas,mindspore-lite
+tables,mindspore-lite
+astunparse,mindspore-lite
 pytest,pytest-print
 netaddr,wpaudit
 boto3,wpaudit
@@ -81103,6 +81609,7 @@ tzlocal,imgstore-shaliulab
 pandas,imgstore-shaliulab
 pytest,imgstore-shaliulab
 bokeh,bokehmol
+pandas,data-decomposition-platform
 flask,mlflow-by-johnsnowlabs
 cloudpickle,mlflow-by-johnsnowlabs
 docker,mlflow-by-johnsnowlabs
@@ -81235,6 +81742,7 @@ httpx,feo-client
 shapely,feo-client
 sphinx-book-theme,dask-sphinx-theme
 python-dotenv,daba
+cryptography,karcher-home
 msgpack-numpy,bluesky
 tqdm,bluesky
 cloudpickle,bluesky
@@ -81377,6 +81885,7 @@ tqdm,newspaper-scraper
 scipy,relistats
 pydantic,k8
 pandas,ferramentas-so
+pandas,cryo-qcheck
 nilearn,notip
 scipy,notip
 matplotlib,notip
@@ -81601,6 +82110,7 @@ sympy,covsirphy
 covsirphy,covsirphy
 scipy,cigvis
 matplotlib,cigvis
+sphinx,sphinxcontrib-linkattr
 flake8,the-one-api-sdk-duke
 black,the-one-api-sdk-duke
 matplotlib,hcpdiff
@@ -81611,6 +82121,7 @@ jupyter-packaging,jupyter-viewer
 black,compas-timber
 doc8,compas-timber
 flake8,compas-timber
+invoke,compas-timber
 pytest-mock,compas-timber
 flask,phanos
 build,phanos
@@ -81757,6 +82268,7 @@ requests,bardapi
 colorama,bardapi
 httpx,bardapi
 langdetect,bardapi
+python-gemini-api,bardapi
 autopep8,fastgedcom
 build,fastgedcom
 nglview,crimm
@@ -81796,6 +82308,7 @@ black,pyextrasafe
 build,pyextrasafe
 virtualenv,pyextrasafe
 setuptools-rust,pyextrasafe
+sphinx,pyextrasafe
 scipy,unassigner
 requests,citybrain-platform
 autopep8,stix-shifter-modules-recorded-future
@@ -81831,6 +82344,7 @@ pandas,querypanda
 requests,navertrans
 scipy,ldpc
 tqdm,ldpc
+scipy,rdat-kit
 pydantic,nonebot-plugin-finallines
 httpx,nonebot-plugin-maimaidx
 pydantic,nonebot-plugin-maimaidx
@@ -81987,6 +82501,10 @@ requests,variational
 pandas,scikit-duplo
 pytest,scikit-duplo
 scikit-learn,scikit-duplo
+black,mnamer
+build,mnamer
+pytest,mnamer
+pytest-rerunfailures,mnamer
 scikit-learn,simple-keyword-clusterer
 tqdm,simple-keyword-clusterer
 matplotlib,simple-keyword-clusterer
@@ -82426,6 +82944,10 @@ matplotlib,pytask-latex
 pytest,pytask-latex
 pytest-xdist,pytask-latex
 pydantic,red-config
+build,pysqlsync
+flake8,pysqlsync
+asyncpg,pysqlsync
+pyodbc,pysqlsync
 fastapi,dooders
 matplotlib,dooders
 pandas,dooders
@@ -82851,7 +83373,9 @@ cryptography,odoo11-addon-auth-totp
 python-jose,odoo11-addon-auth-totp
 cryptography,odoo11-addon-auth-brute-force
 numpy-financial,odoo13-addon-account-fiscal-position-allowed-journal
+black,compas-invocations2
 bump-my-version,compas-invocations2
+invoke,compas-invocations2
 pandas,intake-sql
 cryptography,odoo11-addon-base-search-fuzzy
 pytest,paraxial
@@ -83037,6 +83561,7 @@ pytest,jupyterlab-nbconvert-nocode
 boto3,shelvery
 pytest,shelvery
 scipy,derivealive
+requests,solr-dsl
 meringue,meringue
 flake8,mavsec
 pytest,mavsec
@@ -83058,6 +83583,7 @@ matplotlib,stockstack
 matplotlib,phenobench
 tqdm,phenobench
 pandas,dpipes
+docker,opthub-scorer
 bioio-base,bioio-sldy
 pytest,brandpy
 scipy,raynest
@@ -83332,7 +83858,11 @@ cached-property,notion2vuepress
 notion-cobertos-fork,notion2vuepress
 requests,notion2vuepress
 tzlocal,notion2vuepress
+flask-cors,jageocoder
+tqdm,jageocoder
+wxpython,printrun
 pytest,onnxruntime_extensions
+requests,onnxruntime_extensions
 lifeguard,lifeguard-rabbitmq
 requests,python-tado
 build,pyjon
@@ -83666,6 +84196,7 @@ wxpython,esp-flasher
 requests,esp-flasher
 flake8,jupyterhub-tmpnativeauthenticator
 notebook,jupyterhub-tmpnativeauthenticator
+pytest,jupyterhub-tmpnativeauthenticator
 colorama,logprep
 geoip2,logprep
 luqum,logprep
@@ -83763,6 +84294,7 @@ iniconfig,hipny
 pytest,hipny
 requests,hipny
 pytest,pollination-annual-daylight-en17037
+scikit-learn,eynollah
 matplotlib,eynollah
 build,pydata-checks
 pandas,pydata-checks
@@ -83917,6 +84449,9 @@ django-extensions,archivebox-likn
 ipython,archivebox-likn
 requests,archivebox-likn
 yt-dlp,archivebox-likn
+flake8,groovy-parser
+flake8,groovy-parser
+black,groovy-parser
 build,groovy-parser
 requests,pyupway
 scikit-learn,felimination
@@ -84114,6 +84649,7 @@ pytest,requests-freeproxy
 httpbin,requests-freeproxy
 pytest,stream-zip
 stream-unzip,stream-zip
+matplotlib,qgate-graph
 coverage-badge,qgate-graph
 requests,teaxyzzz5
 tea-xyz1,teaxyzzz5
@@ -84182,6 +84718,7 @@ requests,5gasp-cli
 scipy,yarrow-diagrams
 pandas,getproclist
 subprocesskiller,getproclist
+requests,anacore
 getfilenuitkapython,gethandledf
 pandas,gethandledf
 subprocesskiller,gethandledf
@@ -84192,6 +84729,9 @@ black,git-helper-utils
 deadcode,git-helper-utils
 flake8,git-helper-utils
 scikit-learn,ml-wac
+pandas,elpigraph-python
+scikit-learn,elpigraph-python
+scipy,elpigraph-python
 matplotlib,elpigraph-python
 shapely,elpigraph-python
 requests,gettestmail
@@ -84303,6 +84843,7 @@ sphinx,netsim-tools
 pytest,netsim-tools
 build,netsim-tools
 getkey,pysentation
+djangorestframework,django-jalalify
 bokeh,odoo13-addon-web-widget-numeric-step
 mpld3,odoo13-addon-web-widget-numeric-step
 cryptography,odoo13-addon-auditlog
@@ -84516,6 +85057,8 @@ pandas,heatgeo
 python-dotenv,heatgeo
 scanpy,heatgeo
 scipy,heatgeo
+tox,python-jwt-fork
+pytest,python-jwt-fork
 etatime,mflowm
 pandas,msitrees
 scikit-learn,msitrees
@@ -84631,6 +85174,7 @@ sympy,pymonntorch
 black,prefect-aws
 flake8,prefect-aws
 mkdocs,prefect-aws
+moto,prefect-aws
 pytest,prefect-aws
 pytest-xdist,prefect-aws
 pydantic,mercury-sync
@@ -84655,6 +85199,7 @@ pandas,spaceshare
 scipy,spaceshare
 sqlparse,django-jsheet
 black,friendly-traceback
+pytest,friendly-traceback
 flake8,friendly-traceback
 extruct,pyepggrab
 requests,pyepggrab
@@ -84750,6 +85295,7 @@ boto3,mlflow-skinny
 virtualenv,mlflow-skinny
 colorama,yt5
 requests,bmkgquake
+tox,tongsuopy-crayon
 pandas,sincfold
 scikit-learn,sincfold
 tqdm,sincfold
@@ -84877,6 +85423,9 @@ pip-audit,whattoread
 pytest,whattoread
 requests,whattoread
 virtualenv,whattoread
+sphinx,labgraph-db
+pytest,labgraph-db
+pytest-env,labgraph-db
 tox,django-turbo-response
 prettytable,arinc424
 cryptography,karrio.yanwen
@@ -84963,6 +85512,10 @@ iniconfig,swfutils
 pandas,swfutils
 pytest,swfutils
 requests,udomratibaapi
+gevent,omacase
+matplotlib,omacase
+pandas,omacase
+redis,omacase
 scipy,mdof
 tqdm,mdof
 matplotlib,mdof
@@ -85876,6 +86429,8 @@ attribution,ezsqlite3
 black,ezsqlite3
 flake8,ezsqlite3
 flit,ezsqlite3
+pytest,liqpy
+python-dotenv,liqpy
 build,rasterio
 delocate,rasterio
 pytest,rasterio
@@ -85966,6 +86521,7 @@ boto3,django-cognito
 cryptography,django-cognito
 djangorestframework,django-cognito
 sqlparse,django-cognito
+cement,nose2unitth
 sqlparse,django-automatic-crud
 pytest,swanlab
 black,servicelayer
@@ -85987,7 +86543,10 @@ requests,sound-streamlit
 scipy,sound-streamlit
 threadpoolctl,sound-streamlit
 tzlocal,sound-streamlit
+matplotlib,inferelator
+scipy,inferelator
 scikit-learn,inferelator
+pandas,inferelator
 black,regent
 flake8,regent
 iniconfig,regent
@@ -86315,6 +86874,8 @@ xcompare,omlabs
 pytest,omlabs
 ipython,h5mapper
 tqdm,h5mapper
+requests,pubcontrol-core
+cement,bpforms
 pandas,bpforms
 requests,bpforms
 flake8,novelwriter
@@ -86367,7 +86928,9 @@ pytest,curls-cli
 flake8,ultrasync
 pytest,ultrasync
 tox,ultrasync
+black,pyiso8583
 flake8,pyiso8583
+pytest,pyiso8583
 sphinx,pyiso8583
 pytest,satosa-oidcop
 flake8,satosa-oidcop
@@ -86406,6 +86969,7 @@ pandas,a-pandas-ex-regex-enhancements
 pytest,esa-cci-sm
 tox,esa-cci-sm
 virtualenv,esa-cci-sm
+requests,scopus.wp
 markdown,mkinx
 mkdocs,mkinx
 mkinx,mkinx
@@ -87053,6 +87617,7 @@ molfeat,molfeat-hype
 instructorembedding,molfeat-hype
 python-dotenv,molfeat-hype
 pytest,itk-meshtopolydata
+tox,tongsuopy
 matplotlib,piccard
 pandas,piccard
 colorama,dotsinspace-debugger
@@ -87232,6 +87797,9 @@ requests-toolbelt,hclctpm
 scikit-learn,hclctpm
 scipy,hclctpm
 tqdm,hclctpm
+address-parser,scrape-it
+requests,scrape-it
+tqdm,scrape-it
 matplotlib,mdhelper
 netcdf4,mdhelper
 pandas,mdhelper
@@ -87538,6 +88106,8 @@ pandas,pcdataloader
 scipy,pcdataloader
 requests,pcdataloader
 matplotlib,bbo-labelgui
+tqdm,hyperactive
+pandas,hyperactive
 matplotlib,brokenaxes
 pypdf2,odoo11-addon-base-delivery-carrier-label
 httpx,lightdash-client-python
@@ -87669,6 +88239,7 @@ boto3,cloudagnosticpysqslistener
 requests,dosi-auto-adventure
 tox,mechanical-markdown
 flake8,mechanical-markdown
+tox,mechanical-markdown
 xsdata,aiovantage
 black,aiovantage
 arrow,grpc-wrappers
@@ -87826,6 +88397,7 @@ python-dotenv,tsp-planner
 black,github-poster
 pytest,github-poster
 pytest,pip-services3-rpc
+requests,pip-services3-rpc
 tox,moralis-streams-api
 colorama,dailydotdev-bookmark-cli
 feedparser,dailydotdev-bookmark-cli
@@ -87913,6 +88485,7 @@ black,django-admin-rangefilter
 yamllint,django-admin-rangefilter
 pyroll-core,pyroll-roux-spreading
 js2py,consistent
+scipy,py-gis-utility
 gitpython,commit-tracker
 pandas,commit-tracker
 black,commit-tracker
@@ -88087,6 +88660,7 @@ requests,osm-rawdata
 shapely,osm-rawdata
 flask,wecom-bot-svr
 wx-crypt,wecom-bot-svr
+flask,teedoc-plugin-blog
 requests,teedoc-plugin-blog
 pytest,py-report-html
 tox,py-report-html
@@ -88131,6 +88705,7 @@ sqlparse,zoho-client-django
 pytest,easytester
 flake8,tempo-api-python-client
 scipy,snewpy
+astropy,snewpy
 pandas,snewpy
 tqdm,snewpy
 matplotlib,snewpy
@@ -88333,6 +88908,8 @@ pandas,messenger-counter
 robotframework,robotframework-aircvlibrary
 pytest,object-condensation
 pytest,object-condensation
+colorama,atcoder-submit-status
+requests,atcoder-submit-status
 black,onnx-extended
 cython-lint,onnx-extended
 flake8,onnx-extended
@@ -88708,6 +89285,7 @@ tqdm,pyoclk
 typer,pyoclk
 paramiko,common-ci-utils
 requests,common-ci-utils
+requests,conductor-python
 pytest,rnaseqdata
 pandas,rnaseqdata
 pytest,importlib-metadata-argparse-version
@@ -88984,10 +89562,14 @@ proxystore,colmena
 flake8,cloudmesh-cmd5
 pytest,cloudmesh-cmd5
 pipdeptree,cloudmesh-cmd5
+flit,softworks
+pytest,softworks
+sphinx,softworks
 pytest,streamlit-qs
 requests,patcherex2
 requests,qatlibrary
 robotframework,qatlibrary
+pydantic,semaphore-api
 matplotlib,backstrip
 pandas,backstrip
 black,backstrip
@@ -89825,6 +90407,8 @@ requests-mock,adobe-analytics
 scipy,pyfrp
 matplotlib,pyfrp
 colorama,pyfrp
+pandas,pymast
+matplotlib,pymast
 black,torchoutil
 flake8,torchoutil
 ipython,torchoutil
@@ -89864,6 +90448,8 @@ sqlparse,dataone.common
 stone,dataone.common
 threadpoolctl,dataone.common
 typing-inspect,dataone.common
+pidevguru-piwebapi,pidevguru-piwebapi-ml
+pandas,pidevguru-piwebapi-ml
 pytest,yaml-stripper
 build,cert-normalizer
 cryptography,cert-normalizer
@@ -90157,6 +90743,11 @@ scipy,nrel-erad
 rasterio,nrel-erad
 pydantic,nrel-erad
 requests,nrel-erad
+pytest,haralyzer
+sphinx,haralyzer
+bandit,haralyzer
+black,haralyzer
+flake8,haralyzer
 requests,django-tegro-money
 cchardet,odoo12-addon-l10n-cl-etd-account
 pdf417gen,odoo12-addon-l10n-cl-etd-account
@@ -90320,7 +90911,9 @@ pytest,codebots
 autopep8,codebots
 doc8,codebots
 flake8,codebots
+invoke,codebots
 m2r,codebots
+sphinx,codebots
 furo,codebots
 gitpython,codebots
 paramiko,codebots
@@ -90359,7 +90952,10 @@ black,compas-ags
 doc8,compas-ags
 flake8,compas-ags
 graphviz,compas-ags
+invoke,compas-ags
+ipython,compas-ags
 pytest,compas-ags
+sphinx,compas-ags
 requests,idds-workflow
 flake8,idds-workflow
 pytest,idds-workflow
@@ -90511,6 +91107,8 @@ cryptography,globus-sdk
 tqdm,openlanev2
 matplotlib,openlanev2
 scikit-learn,openlanev2
+scipy,openlanev2
+shapely,openlanev2
 cryptography,mikrotik-connector
 paramiko,mikrotik-connector
 scipy,kramersmoyal
@@ -90916,6 +91514,7 @@ pytest,neophile
 documenteer,neophile
 adafruit-blinka,adafruit-circuitpython-matrixkeypad
 tqdm,ruslanio
+stix2,titan-client
 pandas,revelionn
 matplotlib,revelionn
 pytest,revelionn
@@ -90953,6 +91552,9 @@ pytest,kinho
 pytest,todolog
 requests,django-request-hook
 requests,deadbear-fib-py
+cryptography,container-service-extension
+pyvmomi,container-service-extension
+requests,container-service-extension
 pytest,netbox-agent
 flake8,netbox-agent
 tox,netbox-agent
@@ -91023,6 +91625,7 @@ requests,madcc
 scipy,geometricshapes
 pytest,geometricshapes
 matplotlib,icomo
+pymc,icomo
 arviz,icomo
 graphviz,icomo
 optax,icomo
@@ -91208,6 +91811,9 @@ cchardet,odoo12-addon-l10n-cl-sii-folio
 pdf417gen,odoo12-addon-l10n-cl-sii-folio
 suds-py3,odoo12-addon-l10n-cl-sii-folio
 pandas,odoo11-addon-ddmrp-adjustment
+pytest,mt4forexparser
+requests,mt4forexparser
+pandas,mt4forexparser
 kiramibot,kirami-plugin-hitokoto
 optax,snaxlib
 autopep8,jupyter-power-usage
@@ -91281,6 +91887,7 @@ requests,c-l-testing
 requests,here-geocoding
 pyproj,here-geocoding
 pandas,here-geocoding
+pytest,pgpc
 build,afwf-shell
 scipy,pylandau
 matplotlib,open3spn2
@@ -91437,6 +92044,8 @@ python-dotenv,circleapi
 sphinx,python-lorem
 furo,python-lorem
 pytest,samplerate2
+tqdm,pypipo-py
+scipy,pypipo-py
 docker,dockerich
 pandas,dockerich
 requests,binarybotapi
@@ -91519,6 +92128,8 @@ colorama,pyfsd
 faust-cchardet,langaracourseinfo
 requests,langaracourseinfo
 pydantic,langaracourseinfo
+tqdm,pypipo
+scipy,pypipo
 flake8,flake8-tidy-imports
 tqdm,minari
 typer,minari
@@ -91958,6 +92569,12 @@ datoso,datoso-plugin-internetarchive
 requests,ip2location-toolkit
 tqdm,ip2location-toolkit
 colorama,ip2location-toolkit
+scipy,quadax
+sphinx,quadax
+sphinx-github-style,quadax
+black,quadax
+flake8,quadax
+pytest,quadax
 build,quadax
 pandas,simbioreader
 scikit-learn,cobsurv
@@ -92010,6 +92627,8 @@ rpyc,emdbg
 nonebot-plugin-alconna,nonebot-plugin-ottohzys
 anyio,nonebot-plugin-ottohzys
 httpx,nonebot-plugin-ottohzys
+matplotlib,hector-observations-pipeline
+pandas,hector-observations-pipeline
 pytest,hector-observations-pipeline
 scipy,hector-observations-pipeline
 tqdm,hector-observations-pipeline
@@ -92397,6 +93016,7 @@ pytest,tax-calculator
 requests,tax-calculator
 tox,tax-calculator
 virtualenv,tax-calculator
+scipy,open-spiel
 anyio,boar-pv
 arrow,boar-pv
 astropy,boar-pv
@@ -92579,6 +93199,7 @@ pandas,pydoda
 mkdocs,django-gesha
 flask,kobo-md
 markdown,kobo-md
+scipy,tensorflow-compression
 arrow,tcex-cli
 black,tcex-cli
 pydantic,tcex-cli
@@ -93171,6 +93792,7 @@ shapely,flask-admix
 sqlalchemy-citext,flask-admix
 arrow,flask-admix
 wtforms,flask-admix
+pytest,python-dev-docker-project
 pandas,kailo-beewell-dashboard
 markdown,kailo-beewell-dashboard
 sphinx,kailo-beewell-dashboard
@@ -93202,6 +93824,8 @@ matplotlib,cryocat
 scipy,cryocat
 scikit-learn,cryocat
 requests,zenlayercloud-sdk-python
+robotframework,robotframework-oracledb-library
+robotframework-pythonlibcore,robotframework-oracledb-library
 sphinx,sphinx-substitution-extensions
 deptry,sphinx-substitution-extensions
 doc8,sphinx-substitution-extensions
@@ -93438,9 +94062,17 @@ requests,shdw-node-stats
 pandas,shdw-node-stats
 mlflow,auto-mlflow
 pandas,btester
+shapely,simba-uw-tf-dev
+shapely,simba-uw-tf-dev
+graphviz,simba-uw-tf-dev
+imgaug,simba-uw-tf-dev
+matplotlib,simba-uw-tf-dev
 pandas,simba-uw-tf-dev
 scipy,simba-uw-tf-dev
+scikit-learn,simba-uw-tf-dev
+tqdm,simba-uw-tf-dev
 yellowbrick,simba-uw-tf-dev
+shap,simba-uw-tf-dev
 tables,simba-uw-tf-dev
 requests,masto
 tqdm,masto
@@ -93568,6 +94200,7 @@ pytest,waves
 pytest,cryptography
 pytest-xdist,cryptography
 matplotlib,image-tiller
+pandas,jqtrade
 parse-type,behave-bse
 colorama,behave-bse
 build,behave-bse
@@ -93627,6 +94260,7 @@ pytest,qiskit-qulacs
 jupyter-sphinx,qiskit-qulacs
 black,qiskit-qulacs
 tox,qiskit-qulacs
+qiskit-sphinx-theme,qiskit-qulacs
 altair,thumb
 anyio,thumb
 fastapi,thumb
@@ -93915,6 +94549,8 @@ pytest,membrain-seg
 gtts,speech2speech
 markdown,speech2speech
 tinyaes,pydumpck
+uncompyle6,pydumpck
+xdis,pydumpck
 black,django-jissues
 django-extensions,django-jissues
 python-dotenv,django-jissues
@@ -94036,8 +94672,12 @@ typer,allure-publisher
 black,whirlpool-sixth-sense
 pytest,whirlpool-sixth-sense
 pytest-mock,whirlpool-sixth-sense
+ipython,prefect-client
 mkdocs,prefect-client
+moto,prefect-client
+pytest,prefect-client
 pytest-env,prefect-client
+pytest-xdist,prefect-client
 requests,prefect-client
 virtualenv,prefect-client
 matplotlib,simple-dag
@@ -94089,6 +94729,7 @@ sphinx,cazy-webscraper
 scipy,whacc
 matplotlib,whacc
 tqdm,whacc
+imgaug,whacc
 scikit-learn,whacc
 pandas,whacc
 ipython,whacc
@@ -94233,6 +94874,7 @@ httpx,zella
 python-dotenv,baserun
 anthropic,baserun
 pytest,baserun
+pytest,streamlink
 requests-mock,streamlink
 common-pygrpc,common-pygrpc
 requests,common-pygrpc
@@ -94511,8 +95153,10 @@ black,litgen
 pytest,litgen
 notebook,litgen
 jupyter-book,litgen
+redis,py-redis-ratelimit
 ovos-bus-client,ovos-mark1-utils
 chinesename,chinesename
+pytest,asosoft
 requests,python-launch-library
 pysubs2,pyvidplayer2
 colorama,pythonextensionscollection
@@ -94528,6 +95172,69 @@ scikit-learn,ppypatternrecognition
 sympy,ppypatternrecognition
 easycompletion,agentshell
 agentmemory,agentshell
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+colorama,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+colorama,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pipx,dummy-package-manager
+colorama,dummy-package-manager
+colorama,dummy-package-manager
+pytest,dummy-package-manager
+colorama,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+colorama,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+colorama,dummy-package-manager
+iniconfig,dummy-package-manager
+flake8,dummy-package-manager
+pytest,dummy-package-manager
+colorama,dummy-package-manager
+iniconfig,dummy-package-manager
 matplotlib,feedx
 pandas,feedx
 scipy,feedx
@@ -94564,6 +95271,7 @@ pandas,thermostat-datasets
 scipy,thermostat-datasets
 scikit-learn,thermostat-datasets
 tqdm,thermostat-datasets
+ipython,earthdata-varinfo
 iniconfig,pytest
 requests,pytest
 build,mfbluebox
@@ -94668,6 +95376,7 @@ requests,cocopye
 tqdm,cocopye
 uvicorn,cocopye
 fastapi,cocopye
+pytest,related-without-future
 pytest-pythonpath,related-without-future
 tox,related-without-future
 tox,qiskit-classroom-converter
@@ -95619,6 +96328,7 @@ requests,sinlingua
 sinling,sinlingua
 pytest,attachment-downloader
 boto3,foolaunch
+flask,teedoc-plugin-google-translate
 requests,teedoc-plugin-google-translate
 galsen-game-of-life,galsen-game-of-life
 gitpython,gitlexpy
@@ -96308,6 +97018,7 @@ web3client,web3cli
 cryptography,web3cli
 pandas,pandascolorprinter
 pytest,pytest-gitconfig
+scipy,gauchian
 matplotlib,eaopack
 pandas,eaopack
 scipy,eaopack
@@ -96405,6 +97116,11 @@ pytest,sealevelrise
 sympy,lightphe
 pytest,lightphe
 seamm,read-structure-step
+hikaru-model-25,hikaru-core
+hikaru-model-26,hikaru-core
+hikaru-model-27,hikaru-core
+hikaru-model-28,hikaru-core
+hikaru-codegen,hikaru-core
 requests,filip
 python-dotenv,filip
 pydantic,filip
@@ -96485,6 +97201,7 @@ pandas,wqio
 matplotlib,wqio
 probscale,wqio
 netcdf4,gswpy
+scikit-learn,utrbert
 scipy,utrbert
 pandas,utrbert
 pybedtools,utrbert
@@ -96574,12 +97291,20 @@ scikit-learn,qsft
 threadpoolctl,qsft
 pytest,b2h5py
 pypdf,odoo-addon-despatch-advice-import-ubl
+hikaru-model-25,hikaru-model-23
+hikaru-model-26,hikaru-model-23
+hikaru-model-27,hikaru-model-23
+hikaru-model-28,hikaru-model-23
+hikaru-codegen,hikaru-model-23
 requests,paiagym
 python-dotenv,paiagym
 httpx,googletrans-py39
 pypdf2,odoo-addon-delivery-package-fee
 tqdm,gdstore
 pydantic,llm-prompting-gen
+black,smact
+pytest,smact
+nbqa,smact
 cryptography,mastercard-client-encryption
 defopt,ql
 pandas,ql
@@ -96595,6 +97320,11 @@ pytest,editrest
 flake8,editrest
 pypdf2,web-engine
 pypdf,web-engine
+hikaru-model-25,hikaru-codegen
+hikaru-model-26,hikaru-codegen
+hikaru-model-27,hikaru-codegen
+hikaru-model-28,hikaru-codegen
+hikaru-codegen,hikaru-codegen
 scipy,synth-mapping-helper
 matplotlib,synth-mapping-helper
 requests,synth-mapping-helper
@@ -96625,6 +97355,11 @@ colorama,splat64
 n64img,splat64
 scipy,anntoolkit
 pytest,drawzero
+hikaru-model-25,hikaru-model-24
+hikaru-model-26,hikaru-model-24
+hikaru-model-27,hikaru-model-24
+hikaru-model-28,hikaru-model-24
+hikaru-codegen,hikaru-model-24
 matplotlib,tmprofile
 prettytable,tmprofile
 cattrs,readfish
@@ -96639,6 +97374,11 @@ requests,gtfp
 flask,gtfp
 pygsheets,gtfp
 pytest,mpinum
+hikaru-model-25,hikaru-model-25
+hikaru-model-26,hikaru-model-25
+hikaru-model-27,hikaru-model-25
+hikaru-model-28,hikaru-model-25
+hikaru-codegen,hikaru-model-25
 covdefaults,tessdata.fast-jpn
 pytest,tessdata.fast-jpn
 autopep8,much
@@ -96648,6 +97388,11 @@ docstring-to-markdown,much
 flake8,much
 requests,much
 requests,pongo-python
+hikaru-model-25,hikaru-model-26
+hikaru-model-26,hikaru-model-26
+hikaru-model-27,hikaru-model-26
+hikaru-model-28,hikaru-model-26
+hikaru-codegen,hikaru-model-26
 typer,heroku-audit
 python-dotenv,heroku-audit
 black,heroku-audit
@@ -96683,14 +97428,22 @@ pytest,ptpm
 tqdm,ptpm
 gitpython,ptpm
 black,rq-dashboard
+shapely,shockpy
 sympy,e3nn-jax
 dm-haiku,e3nn-jax
 optax,e3nn-jax
 tqdm,e3nn-jax
 pytest,e3nn-jax
 nox,e3nn-jax
+pandas,evalpm
+matplotlib,evalpm
+scikit-learn,evalpm
+deepsig,evalpm
 typer,pirg
 requests,pirg
+scipy,tangermeme
+pandas,tangermeme
+tqdm,tangermeme
 black,xecs
 pytest,xecs
 sphinx,xecs
@@ -96721,6 +97474,11 @@ black,opentelemetry-exception-ext
 pytest,opentelemetry-exception-ext
 build,opentelemetry-exception-ext
 build,django-cache-helper
+sphinx,orthax
+sphinx-github-style,orthax
+black,orthax
+flake8,orthax
+pytest,orthax
 build,orthax
 httpx,pypoint
 pytest,pytest-synodic
@@ -96738,6 +97496,11 @@ black,ansible-lint-custom-strict-naming
 flake8,ansible-lint-custom-strict-naming
 nox,ansible-lint-custom-strict-naming
 pytest,ansible-lint-custom-strict-naming
+argparsefromdoc,cesped
+pandas,cesped
+requests,cesped
+scipy,cesped
+starfile,cesped
 cryptography,odoo8-addon-l10n-es-aeat-mod340
 pypdf,odoo12-addon-l10n-fr-chorus-facturx
 requests,odoo12-addon-l10n-fr-chorus-facturx
@@ -96833,6 +97596,7 @@ cached-property,increase
 cryptography,odoo8-addon-l10n-es-aeat-mod349
 pollination-dsl,pollination-honeybee-radiance
 honeybee-radiance,pollination-honeybee-radiance
+scipy,cyrius
 requests,lrcup
 cryptography,odoo12-addon-connector-jira-tempo-base
 jira,odoo12-addon-connector-jira-tempo-base
@@ -97482,6 +98246,8 @@ flake8,compas-invocations
 graphviz,compas-invocations
 invoke,compas-invocations
 matplotlib,compas-invocations
+pytest,compas-invocations
+sphinx,compas-invocations
 requests,cc12703-uiautomator2
 retry,cc12703-uiautomator2
 adbutils,cc12703-uiautomator2
@@ -97541,11 +98307,23 @@ sympy,thor-hammer
 boto3,dialog-workflow
 dokr,dialog-workflow
 requests,dialog-workflow
+scipy,mindspore
+matplotlib,mindspore
+scikit-learn,mindspore
+pandas,mindspore
+tables,mindspore
+astunparse,mindspore
 pytest,yt-queue
 pytest,gns3-server
 pytest,gns3-server
 flake8,gns3-server
 requests,pygdshort
+scipy,mindspore-dev
+matplotlib,mindspore-dev
+scikit-learn,mindspore-dev
+pandas,mindspore-dev
+tables,mindspore-dev
+astunparse,mindspore-dev
 requests,api-geoguessr
 pandas,ezduckdb
 pytest,ezduckdb
@@ -97578,6 +98356,7 @@ flake8,allure-env-builder
 requests,allure-env-builder
 requests-toolbelt,allure-env-builder
 graphviz,omrdatasettools
+pytest,omrdatasettools
 tqdm,omrdatasettools
 pandas,omrdatasettools
 moat-kv,moat-kv-gpio
@@ -97680,6 +98459,8 @@ autopep8,compas-robots
 black,compas-robots
 doc8,compas-robots
 flake8,compas-robots
+invoke,compas-robots
+pytest,compas-robots
 sqlite-migrate,datasette-metadata-editable
 scipy,bannotator
 requests,rpi-metar
@@ -97737,6 +98518,7 @@ assure,wnix
 embd,wnix
 kern,wnix
 pandas,sceptic
+pii-decide,pii-process
 boto3,anonymous-matlab.py
 dokr,anonymous-matlab.py
 requests,anonymous-matlab.py
@@ -97969,6 +98751,8 @@ cfgv,pysphalt
 identify,pysphalt
 nodeenv,pysphalt
 virtualenv,pysphalt
+pandas,cloud-arrow
+python-dotenv,cloud-arrow
 pytest,ai-test-craft
 pytest-mock,ai-test-craft
 requests,helper20sms
@@ -98154,7 +98938,9 @@ yt-dlp,catvibes
 build,pyableton
 pytest,pyableton
 sphinx,pyableton
+invoke,robotframework
 sphinx,robotframework
+pydantic,robotframework
 black,sspi
 pytest,sspi
 pytest,xchainpy2-utils
@@ -98199,6 +98985,8 @@ scikit-learn,pymilo
 bandit,pymilo
 pytest,pymilo
 black,alteza
+pyre-check,alteza
+pyright,alteza
 matplotlib,gflex
 scipy,gflex
 scipy,egttools
@@ -98358,6 +99146,9 @@ pytest,aiflows
 diskcache,aiflows
 jsonlines,aiflows
 requests,beique
+pandas,beique
+matplotlib,beique
+matplotlib,beique
 requests,serialmfg
 python-dotenv,serialmfg
 pandas,pymga
@@ -98529,6 +99320,7 @@ pydantic,grevling
 matplotlib,grevling
 pytest,zarr-eosdis-store
 flake8,zarr-eosdis-store
+sphinx,zarr-eosdis-store
 colorama,chatgptautomation
 comm,chatgptautomation
 ipython,chatgptautomation
@@ -98599,6 +99391,7 @@ pandas,db-cache-manager
 pytest,db-cache-manager
 pytest,open-notebook
 pytest-xdist,open-notebook
+scanpy,soapy-st
 pandas,soapy-st
 scipy,soapy-st
 tqdm,soapy-st
@@ -98883,6 +99676,7 @@ matplotlib,whitecanvas
 pytest,bambootools
 pandas,bambootools
 build,bambootools
+requests,facebook-business
 requests,g4f-fork
 fastapi,g4f-fork
 uvicorn,g4f-fork
@@ -98936,6 +99730,8 @@ pymdown-extensions,mkdocs-techdocs-diamond
 black,mkdocs-techdocs-diamond
 pipdeptree,mkdocs-techdocs-diamond
 pytest,mkdocs-techdocs-diamond
+pytest,evohome-async
+pytest-xdist,evohome-async
 arrow,simple-notifs
 pytest,stdpy
 pytest,stdpy
@@ -98979,6 +99775,11 @@ mdof,sdof
 pytest,anl
 tox,anl
 build,my-mu3
+hikaru-model-25,hikaru-model-27
+hikaru-model-26,hikaru-model-27
+hikaru-model-27,hikaru-model-27
+hikaru-model-28,hikaru-model-27
+hikaru-codegen,hikaru-model-27
 httpx,ui-test-runner
 colorama,ed-explorer-stats
 pytest,itkwidgets
@@ -99478,6 +100279,7 @@ scraperfc,scraperfc
 scikit-learn,autora-experimentalist-leverage
 matplotlib,pyglotaran-extras
 pandas,qablet-contracts
+lib4sbom,sbomtrend
 black,slowroll
 flake8,slowroll
 tox,slowroll
@@ -99677,6 +100479,8 @@ sympy,pandora-app
 scikit-learn,pandora-app
 vega-datasets,pandora-app
 pretix-plugin-build,pretix-sumup-payment
+pytest,firebase-admin
+pytest-mock,firebase-admin
 distro,pyluks
 flask,pyluks
 gunicorn,pyluks
@@ -99799,7 +100603,10 @@ requests,mov-cli-test
 build,mov-cli-test
 tqdm,visionframe
 requests,ark-mainsail
+pydantic,langware
 colorama,langware
+python-dotenv,langware
+sympy,langware
 typer,blarg
 markdown,blarg
 pymdown-extensions,blarg
@@ -99841,6 +100648,7 @@ virtualenv,laebelmaker
 pandas,deeplocrna
 torchinfo,deeplocrna
 matplotlib,deeplocrna
+a3exception,a3grpc
 konfigleser,adbkonnekt
 procciao,adbkonnekt
 scipy,sparse-convolution
@@ -100266,6 +101074,7 @@ mkdocs,synophotos
 mkdocs-click,synophotos
 requests,pyleb-shortlink
 bitsandbytes,llmpool
+requests,bitmovin-api-sdk
 sqlparse,django-y-message
 matplotlib,eldpy
 requests,eldpy
@@ -100579,6 +101388,7 @@ pipdeptree,cloudmesh-abstract
 pytest,cloudmesh-abstract
 flake8,cloudmesh-abstract
 black,cloudmesh-abstract
+pyvirtualcam,is-that-you
 pyright,a-n-plus-b
 pytest,a-n-plus-b
 tox,a-n-plus-b
@@ -100627,6 +101437,8 @@ black,deling
 flake8,deling
 pandas,mammoth-commons
 kfp,mammoth-commons
+black,stakefish-web3-utils
+pytest-mock,stakefish-web3-utils
 scipy,elphem
 gdown,worde4mde
 pytest,pashehnet
@@ -100887,6 +101699,7 @@ rehearser,rehearser
 bandit,tospotify
 flake8,tospotify
 pytest,tospotify
+geode-simplexremesh,geode-simplexgeosciences
 pydantic,ssh-agent-add-id
 build,chap-command-explain
 chap,chap-command-explain
@@ -101282,6 +102095,7 @@ sphinx,buildenv
 pytest,simpletransformers-fork-trialandsuccess
 black,simpletransformers-fork-trialandsuccess
 flake8,simpletransformers-fork-trialandsuccess
+flake8,dcflags
 ansi2html,presenterm-export
 dataclass-wizard,presenterm-export
 scipy,factualscenegraph
@@ -101517,8 +102331,10 @@ black,likelihood
 flake8,likelihood
 matplotlib,likelihood
 pandas,likelihood
+black,compas-libigl
 doc8,compas-libigl
 flake8,compas-libigl
+invoke,compas-libigl
 markdown,multiqc-sgr
 requests,multiqc-sgr
 rich-click,multiqc-sgr
@@ -101579,6 +102395,11 @@ colorama,django-tinymce4-widget
 iniconfig,django-tinymce4-widget
 pytest-django,django-tinymce4-widget
 pytest,django-tinymce4-widget
+hikaru-model-25,hikaru-model-28
+hikaru-model-26,hikaru-model-28
+hikaru-model-27,hikaru-model-28
+hikaru-model-28,hikaru-model-28
+hikaru-codegen,hikaru-model-28
 flake8,flake8-pyi
 black,flake8-pyi
 pre-commit-hooks,flake8-pyi
@@ -101655,7 +102476,9 @@ prettytable,vedicastro
 httpx,nonebot-plugin-mcpic
 pandas,arbitragerepair
 tqdm,enhance-long
+black,smbprotocol
 build,smbprotocol
+cryptography,smbprotocol
 pyspnego,smbprotocol
 pytest,smbprotocol
 pytest-mock,smbprotocol
@@ -102022,6 +102845,7 @@ requests,cashctrl
 build,flask-restless-client
 flake8,flask-restless-client
 flask-restless-datamodel,flask-restless-client
+pytest,flask-restless-client
 pytest-xdist,flask-restless-client
 requests-flask-adapter,flask-restless-client
 nebari,nebari-plugin-metrics-server
@@ -102121,6 +102945,8 @@ pandas,pydbsmgr
 pyodbc,pydbsmgr
 ipython,pydbsmgr
 python-dotenv,pydbsmgr
+scipy,pyceps
+scipy,pyceps
 scipy,robist
 scikit-learn,robist
 matplotlib,robist
@@ -102507,6 +103333,7 @@ matplotlib,backtrader-bybit
 pydantic,pyweclapp
 requests,pyweclapp
 build,sl-optimizer
+pytest,pyodbc
 flake8,pyodbc
 anyio,betaassi
 distro,betaassi
@@ -102637,6 +103464,7 @@ django-extensions,django-jstocks
 python-dotenv,django-jstocks
 black,django-jstocks
 sendgrid,django-jstocks
+predacons,predacons-gui
 requests,dynamodbfaker
 requests-toolbelt,dynamodbfaker
 boto3,dynamodbfaker
@@ -102746,6 +103574,7 @@ pytest,adbcug-adapter
 pyvmomi,carthage
 requests,carthage
 pytest,cumulus-fhir-support
+matplotlib,gioconda
 bioio-base,bioio-tifffile
 pandas,invert4geom
 rioxarray,invert4geom
@@ -102845,6 +103674,7 @@ pydantic,avtdl
 feedparser,avtdl
 markdown,avtdl
 pynetbox,octodns-netbox-dns
+python-dotenv,sas-pylogger-handler
 httpx,oaipmh-scythe
 fastapi,fastapi_amis_admin_cli
 uvicorn,fastapi_amis_admin_cli
@@ -103126,6 +103956,7 @@ djangorestframework,omni-pro-app-base
 django-allow-cidr,omni-pro-app-base
 cryptography,pebbleauthclient
 scipion-pyworkflow,scipion-em-flexutils
+scipion-em,scipion-em-flexutils
 scikit-learn,scipion-em-flexutils
 pandas,larvaworld
 scipy,larvaworld
@@ -103452,6 +104283,9 @@ requests,karrio.amazon-shipping
 sqlparse,karrio.amazon-shipping
 uvicorn,karrio.amazon-shipping
 requests,toluene
+requests,aitool
+tqdm,aitool
+pandas,aitool
 pandas,forecastblurdenoise
 optuna,forecastblurdenoise
 flake8,safe-backup
@@ -103674,6 +104508,8 @@ datamol,polaris-lib
 pytest,polaris-lib
 pytest-xdist,polaris-lib
 pytest,flask-mobility
+pyutilb,k8sboot
+pyutilb,sparkboot
 pytest,vereqsyn
 requests,httpgo
 httpx,httpgo
@@ -103685,6 +104521,7 @@ pingouin,metacast
 tqdm,metacast
 flask,dbnavigator
 mrfifo,scbamtools
+pyutilb,k8scmd
 pandas,exoverses
 astropy,exoverses
 scipy,exoverses
@@ -103729,6 +104566,7 @@ tqdm,scancode-toolkit-mini
 requests,eo-man
 pytest,pytest-jsonschema
 matplotlib,npc-sync
+prisma-sase,prisma-sdwan-get-all-interface-info
 build,grep2
 pytest,grep2
 black,ndg.clap
@@ -103770,6 +104608,8 @@ pytest-sphinx,bed-reader
 sphinx,bed-reader
 black,bed-reader
 pandas,bed-reader
+optax,gtech-optimus
+tqdm,gtech-optimus
 flask,syncstream
 black,syncstream
 build,syncstream
@@ -103934,7 +104774,9 @@ tzlocal,funix-cloud
 tqdm,smalldiffusion
 pandas,ocrd-froc
 trio,trio-serial-windows
+black,compas-notebook
 bump-my-version,compas-notebook
+invoke,compas-notebook
 tweepy,prefect-twitter
 requests,robotframework-chromefortesting
 robotframework,robotframework-chromefortesting
@@ -104219,6 +105061,7 @@ bioio-base,bioio-czi
 bioio-base,bioio-dv
 nbgrader,etc-jupyterlab-nbgrader-validate
 bioio-base,bioio-bioformats
+lib4sbom,mlbomdoc
 build,jvav
 cattrs,jvav
 langdetect,jvav
@@ -104468,6 +105311,7 @@ pytest-mock,xtgeo
 pytest-xdist,xtgeo
 pandas,group-decomposition
 pytest,group-decomposition
+pydantic,foundry-platform-sdk
 scipy,galarp
 astropy,galarp
 matplotlib,galarp
