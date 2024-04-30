@@ -1,4 +1,4 @@
-baseURL = "https://MathiasDamsgaard.github.io/Comp_Social_Sci_Assigment_B/"
+baseURL = "https://MathiasDamsgaard.github.io/Comp_Social_Sci_Assignments/"
 title = "pypi dependencies network"
 description = "A project looking into the links between the different python packages available on Pypi and how they depend on each other as requirements."
 relativeURLs = true
@@ -7,7 +7,7 @@ theme = "theme"
     authors = ["Andreas Søndergaard (s214635)", "Anton Mosquera Storgaard (s214611)", "Mathias Correll Damsgaard (s214647)"]
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com/drive/folders/1ds2DuMk6-3qzciHKSTfHVpAQfmKQm407?usp=sharing"
-    github = "https://github.com/MathiasDamsgaard/Comp_Social_Sci_Assigments"
+    github = "https://github.com/MathiasDamsgaard/Comp_Social_Sci_Assignments"
     [[params.nav]]
         label = "Data"
         link = "/data-description"
