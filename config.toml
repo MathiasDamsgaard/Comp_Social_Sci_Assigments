@@ -1,4 +1,4 @@
-baseURL = "https://MathiasDamsgaard.github.io/Comp_Social_Sci_Assigment_B/"
+baseURL = "https://MathiasDamsgaard.github.io/Comp_Social_Sci_Assigments/"
 title = "pypi dependencies network"
 description = "A project looking into the links between the different python packages available on Pypi and how they depend on each other as requirements."
 relativeURLs = true
