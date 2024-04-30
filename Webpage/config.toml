@@ -1,6 +1,6 @@
 baseURL = "https://MathiasDamsgaard.github.io/Comp_Social_Sci_Assignments/"
-title = "pypi dependencies network"
-description = "A project looking into the links between the different python packages available on Pypi and how they depend on each other as requirements."
+title = "PyPi dependencies network"
+description = "A project looking into the links between the different python packages available on PyPi and how they depend on each other as requirements."
 relativeURLs = true
 theme = "theme"
 [params]
