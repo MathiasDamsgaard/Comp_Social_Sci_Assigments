@@ -12,3 +12,5 @@ This research was conducted for investigating how the package library in Python 
 By also analysing the text available in README files, understand of how programmers formulate themselves when writing documentation for their code, and the variation across different groups can be visualized. This is the main points of the research on this website, and the authors hope you find the reading enjoyable.
 
 Here is a link to a webbased visual representation of the [notebook](explainer-notebook.html), which contain all the relevant code along with clarifications and explanations on the workflow and decisions taken.
+
+In the end the research showed ...
