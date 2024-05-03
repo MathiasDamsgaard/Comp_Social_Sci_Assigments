@@ -13,4 +13,4 @@ By also analysing the text available in README files, understand of how programm
 
 Here is a link to a webbased visual representation of the [notebook](explainer-notebook.html), which contain all the relevant code along with clarifications and explanations on the workflow and decisions taken.
 
-In the end the research showed ...
+In the end the research showed some interesting results in both the network and textual analysis.
